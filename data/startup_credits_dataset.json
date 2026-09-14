@@ -378,7 +378,7 @@
       "liveApiSynced": "2026-09-12 20:57:08 UTC"
     },
     "portalScreenshot": "assets/portals/aws-activate.png",
-    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(1.16)\">\n    <path d=\"M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z\" fill=\"#FF9900\"/>\n  </g>\n</svg>"
+    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(1.16)\">\n    <path class=\"aws-letters\" d=\"M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z\" fill=\"#FF9900\"/>\n  </g>\n</svg>"
   },
   {
     "id": "nvidia-inception",
@@ -1973,5 +1973,251 @@
       "tokenRunwayFact": "At $0.10 per 1M tokens on Llama 3.1 8B, a $100,000 startup credit allocation purchases an astonishing 1 Trillion tokens running at unprecedented real-time speeds exceeding 2,000 tokens per second."
     },
     "portalScreenshot": "assets/portals/cerebras-cloud-startups.png"
+  },
+  {
+    "id": "together-ai-startup-program",
+    "name": "Together AI",
+    "org": "Together Computer Inc.",
+    "programName": "Together AI Startup Program",
+    "maxCredits": "$25,000",
+    "numericValue": 25000,
+    "currency": "USD",
+    "category": "Frontier AI & Models",
+    "badge": "High-Throughput Open-Source Inference",
+    "topDisqualifier": "Proprietary API Wrapper Architecture Without Open-Weights Pipeline",
+    "shortDisqualifier": "DQ: Wrapper Architecture Trap",
+    "disqualifierDetail": "Applications proposing architectures that merely proxy third-party closed-source endpoints rather than actively serving, fine-tuning, or orchestrating open-weights models (e.g., Llama 3, DeepSeek, Mistral) face immediate disqualification. Founders bypass this by presenting an architectural blueprint that explicitly targets Together Inference Engine, custom LoRA fine-tuning, or dedicated private endpoints.",
+    "disqualifierSource": "Together AI Startup Program Terms and Eligibility Guidelines",
+    "turnaroundTime": "3\u20135 Business Days",
+    "equityTaken": "0% (Non-Dilutive)",
+    "perkHighlight": "Up to $25,000 in compute credits to serve, fine-tune, and run open-source frontier models at state-of-the-art inference speeds.",
+    "brandColor": "#0F172A",
+    "executiveSummary": "The Together AI Startup Program provides seed and early-stage companies with up to $25,000 in non-dilutive compute credits to eliminate token burn while architecting production LLM applications. By pairing bleeding-edge open-weights inference with high-speed fine-tuning infrastructure, the initiative preserves financial runway and enables competitive unit economics against proprietary hyperscaler APIs.",
+    "essay": "For early-stage technology founders, compute cost represents the single largest variable component of cost of goods sold (COGS). The Together AI Startup Program directly alters this economic reality by granting up to $25,000 in platform credits for use across Together AI's serverless inference, dedicated clusters, and fine-tuning engines. Instead of burning early venture capital on premium proprietary tokens from closed-source providers, teams can route production workloads through high-throughput open-weights models (such as Llama 3, DeepSeek-V3/R1, and Mistral) delivered via custom FlashAttention-driven kernels. This architectural shift slashes operational token burn by 60% to 80%, providing early founders with the margin breathing room required to reach venture-scale retention metrics.\n\nThe capital efficiency of the Together AI platform lies in its purpose-built inference virtualization. Startups utilize serverless endpoints for cost-free idle scaling during early product validation, then seamlessly transition high-volume workflows into dedicated GPU instances (NVIDIA H100 and B200 clusters) as request concurrency matures. The program covers both training and inference: startups can allocate credits directly toward parameter-efficient fine-tuning (PEFT/LoRA) and full-parameter runs, converting raw domain data into proprietary enterprise moats without incurring secondary cloud egress or data transfer surcharges.\n\nFrom a balance sheet perspective, non-dilutive compute subsidies function as shadow venture financing. Consuming $25,000 in Together AI credits shields an equivalent tranche of seed equity from non-productive operational expenditure. Furthermore, because Together AI exposes an OpenAI-compatible API spec, engineering teams preserve operational agility, retaining the option to switch between serverless endpoints, dedicated enterprise instances, or hybrid edge-cloud topologies without refactoring application logic. For venture-backed startups scaling past initial pilot traction, this program serves as an essential margin-optimization engine.",
+    "requirements": [
+      "Incorporated commercial entity (C-Corp, LLC, or international equivalent) founded within the last 36 months",
+      "Active corporate email domain and verifiable digital footprint (GitHub, working production demo, or registered company website)",
+      "Documented architectural requirement for open-weights model inference, fine-tuning, or custom GPU cluster scaling",
+      "Total outside equity funding under $10,000,000 USD",
+      "New Together AI enterprise customer account without pre-existing promotional credit balance"
+    ],
+    "rejectionPitfalls": [
+      "Submitting generic consumer email addresses (@gmail.com, @outlook.com) rather than an authenticated corporate domain",
+      "Describing a business model that relies exclusively on closed-source APIs with no technical intent to deploy or fine-tune open-weights models",
+      "Failing to detail production workload sizing, expected token throughput, or latency-critical deployment requirements",
+      "Applying after already consuming prior institutional tier promotional allotments on the same billing profile"
+    ],
+    "successFactors": [
+      "Affiliation with recognized top-tier accelerators, seed funds, or institutional venture capital syndicates",
+      "Clear architectural plan demonstrating migration from expensive proprietary endpoints to optimized open-source equivalents",
+      "Demonstrated production prototype or public repository showcasing active implementation of the Together AI SDK",
+      "Explicit roadmap for token volume expansion and custom model fine-tuning over a 6-to-12 month horizon"
+    ],
+    "eligibleServices": [
+      "Together Serverless Inference Engine (100+ optimized open-source LLMs and vision models)",
+      "Together Dedicated Endpoints (Reserved NVIDIA H100/H200 capacity with strict SLA guarantees)",
+      "Together Fine-Tuning Service (LoRA and Full Parameter Fine-Tuning pipelines)",
+      "Together Custom Hardware Clusters (Bare-metal and high-bandwidth interconnect GPU clusters)",
+      "Together Embeddings and Multimodal APIs"
+    ],
+    "applicationUrl": "https://www.together.ai/startups",
+    "citations": [
+      {
+        "title": "Together AI Startup Program Portal",
+        "url": "https://www.together.ai/startups"
+      },
+      {
+        "title": "Together AI Platform Pricing & Compute Architecture",
+        "url": "https://www.together.ai/pricing"
+      }
+    ],
+    "auditDate": "September 14, 2026",
+    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(0.28)\">\n    <title>together.ai</title><path d=\"M23.197 4.503A6 6 0 0015 2.307a5.973 5.973 0 00-2.995 4.933l5.996.008v.515h-5.996c.039.937.298 1.87.8 2.74a6 6 0 1010.39-6z\"></path><path d=\"M.805 4.5A6 6 0 003 12.697a5.972 5.972 0 005.77.127L5.779 7.627l.446-.257 2.997 5.192A6 6 0 10.804 4.5z\"></path><path d=\"M12 23.894a6 6 0 005.999-6c0-2.13-1.1-3.996-2.775-5.06l-3.005 5.189-.444-.258 2.997-5.192A6 6 0 1012 23.894z\"></path>\n  </g>\n</svg>"
+  },
+  {
+    "id": "mistral-ai-startup-access",
+    "name": "Mistral AI",
+    "org": "Mistral AI SAS",
+    "programName": "Mistral AI Startup Access",
+    "maxCredits": "$25,000",
+    "numericValue": 25000,
+    "currency": "USD",
+    "category": "Frontier AI & Models",
+    "badge": "Frontier Inference & Fine-Tuning",
+    "topDisqualifier": "Unverified Business Entity & Consumer Domain Applications",
+    "shortDisqualifier": "DQ: Unverified Corporate Entity",
+    "disqualifierDetail": "Applications submitted with consumer email addresses (e.g., Gmail, Proton, Outlook) or without an active, incorporated business entity registered on commercial registries are instantly filtered by automated intake screeners. Founders must apply using their verified corporate domain tied to an active, publicly resolvable web footprint with demonstrable proprietary software architecture.",
+    "disqualifierSource": "Mistral AI La Plateforme Terms of Service & Partner Program Guidelines",
+    "turnaroundTime": "5\u201310 Business Days",
+    "equityTaken": "0% (Non-Dilutive)",
+    "perkHighlight": "Up to $25,000 in direct La Plateforme compute tokens covering Mistral Large, Codestral, Pixtral, and serverless fine-tuning endpoints.",
+    "brandColor": "#F54E00",
+    "executiveSummary": "Mistral AI Startup Access provides early-stage technical ventures with up to $25,000 in non-dilutive La Plateforme API credits, substantially reducing LLM inference burn during critical prototyping and market validation phases. By granting subsidized access to frontier-class reasoning and multimodal architectures like Mistral Large 2 and Codestral, the program allows founders to benchmark unit economics against hyperscaler-tied competitors with zero equity leakage.",
+    "essay": "From a capital allocation perspective, foundational model inference constitutes the single most volatile operating expenditure on an early-stage AI balance sheet. Mistral AI's Startup Access program mitigates this volatility by providing structured, non-dilutive balance sheets credits against La Plateforme API consumption. Valued at up to $25,000 for qualifying early-stage startups\u2014often coordinated through partner incubators, top-tier venture firms, or direct qualifying enterprise intake\u2014these credits function as a critical liquidity buffer, deferring compute cash drain until product-market fit metrics or commercial seed-stage milestones are firmly established.\n\nThe operational leverage of this credit allocation lies in Mistral's aggressive cost-to-performance efficiency and open-weight lineage. By utilizing credits directly on Mistral Large 2, Codestral, and Pixtral, engineering teams can implement multi-agent workflows, long-context retrieval-augmented generation (RAG), and deterministic code synthesis at a structural price-per-token discount relative to traditional proprietary frontier ecosystems. Furthermore, the availability of specialized serverless fine-tuning endpoints under the credit umbrella permits founders to adapt open-weight architectures directly to specialized proprietary datasets without maintaining reserved bare-metal GPU clusters.\n\nFrom a CFO oversight angle, Mistral's sovereign European infrastructure and stringent data privacy governance eliminate costly cross-border compliance audits (e.g., GDPR Article 28 data processor obligations) that typically plague enterprise rollouts. Unlike proprietary closed APIs with opaque data-ingestion policies, Mistral commits to non-retention for model training under paid API tiers. This allows B2B startups to satisfy stringent enterprise risk and security compliance reviews early in their commercial pipeline while drawing down promotional credits to preserve runway.",
+    "requirements": [
+      "Legally registered corporate entity (C-Corp, SAS, GmbH, Ltd, or equivalent jurisdiction)",
+      "Active corporate email domain corresponding to the legal company identity (no generic email hosts)",
+      "Live, publicly accessible production deployment, functional beta, or verified architectural prototype",
+      "Clear proprietary value proposition beyond a thin API wrapper or commoditized prompt proxy",
+      "Affiliation with an approved accelerator, incubator, or institutional venture capital partner, or verified qualifying direct application"
+    ],
+    "rejectionPitfalls": [
+      "Applying with a personal email domain (e.g., @gmail.com or @icloud.com), which triggers automated rejection at intake",
+      "Submitting purely speculative or conceptual roadmaps without demonstrable technical architecture or accessible repositories",
+      "Submitting applications with inactive or placeholder websites that fail corporate verification checks",
+      "Attempting to claim credits across multiple sister accounts or duplicate corporate registrations under identical leadership"
+    ],
+    "successFactors": [
+      "Demonstration of an active product deployment with quantifiable token consumption projections and user traffic",
+      "Evidence of proprietary data pipelines or fine-tuning workflows leveraging Mistral's specific architectural advantages",
+      "Referral or endorsement through a recognized venture capital fund, premier accelerator (e.g., Y Combinator, Station F), or official partner ecosystem",
+      "Transparent business plan illustrating a path to commercialization and sustained post-credit API consumption"
+    ],
+    "eligibleServices": [
+      "Mistral Large 2 (Frontier reasoning and complex multilingual generation)",
+      "Mistral Small 3 & Mistral NeMo (High-throughput, latency-sensitive agentic workloads)",
+      "Codestral & Codestral Mamba (Specialized code completion and generation endpoints)",
+      "Pixtral 12B (Multimodal vision and document reasoning)",
+      "Mistral Embed (High-performance semantic vector embedding models)",
+      "La Plateforme Serverless Fine-Tuning Service (Parameter-efficient custom model adaptation)"
+    ],
+    "applicationUrl": "https://mistral.ai/contact/",
+    "citations": [
+      {
+        "title": "Mistral AI Platform & Services Overview",
+        "url": "https://mistral.ai"
+      },
+      {
+        "title": "Mistral AI La Plateforme Console & Pricing",
+        "url": "https://console.mistral.ai"
+      },
+      {
+        "title": "Mistral AI Contact & Commercial Intake",
+        "url": "https://mistral.ai/contact/"
+      }
+    ],
+    "auditDate": "September 14, 2026",
+    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(0.28)\">\n    <title>Mistral</title><path clip-rule=\"evenodd\" d=\"M3.428 3.4h3.429v3.428h3.429v3.429h-.002 3.431V6.828h3.427V3.4h3.43v13.714H24v3.429H13.714v-3.428h-3.428v-3.429h-3.43v3.428h3.43v3.429H0v-3.429h3.428V3.4zm10.286 13.715h3.428v-3.429h-3.427v3.429z\"></path>\n  </g>\n</svg>"
+  },
+  {
+    "id": "lambda-labs-startup-credits",
+    "name": "Lambda",
+    "org": "Lambda, Inc.",
+    "programName": "Lambda for Startups",
+    "maxCredits": "$25,000",
+    "numericValue": 25000,
+    "currency": "USD",
+    "category": "GPU Clusters & Bare Metal",
+    "badge": "On-Demand Cloud GPUs",
+    "topDisqualifier": "Unbacked Free-Tier Email & Non-Incorporated Entity",
+    "shortDisqualifier": "DQ: Unverified Business Entity",
+    "disqualifierDetail": "Applications submitted with generic public domain emails (e.g., @gmail.com) or lacking verifiable proof of legal incorporation (such as Delaware C-Corp registry or active state filing) face automated denial due to strict GPU anti-fraud controls. Founders bypass this fatal filter by providing a verifiable company domain, corporate website, and active funding or accelerator verification.",
+    "disqualifierSource": "Lambda Cloud Terms of Service & Startup Verification Protocol",
+    "turnaroundTime": "5\u20137 Business Days",
+    "equityTaken": "0% (Non-Dilutive)",
+    "perkHighlight": "Up to $25,000 in non-dilutive GPU cloud credits across NVIDIA H100, A100, and GH200 instances with direct access to high-speed cluster networking.",
+    "brandColor": "#9900FF",
+    "executiveSummary": "Lambda's startup program acts as an essential runway multiplier for deep learning ventures by offsetting critical early training and fine-tuning GPU overhead without equity dilution. By converting capital expenditure into non-dilutive operating capacity, AI startups significantly lower baseline burn rates while accelerating model iteration velocity.",
+    "essay": "Lambda has established itself as an indispensable hyperscaler alternative for machine learning teams seeking high-density GPU infrastructure without the complex pricing tiers and egress surcharges standard among legacy clouds. Through the Lambda for Startups initiative, early-stage ventures gain subsidized access to top-tier NVIDIA compute infrastructure\u2014spanning GH200, H100 Tensor Core, and A100 instances. By eliminating the multi-layered operational overhead associated with generalized hyperclouds, Lambda delivers bare-metal and on-demand VM execution designed strictly for distributed model training and high-throughput inference pipelines.\n\nFrom a balance sheet perspective, GPU access frequently represents upwards of 40% to 70% of an early-stage AI startup's monthly operational burn. Securing up to $25,000 in non-dilutive credit allocation directly extends an engineering team's experimental timeline, enabling multi-epoch model tuning and validation before committing to long-term reserved instance contracts. The structure avoids compute lock-in, enabling engineers to utilize standardized containerized workflows (Docker, PyTorch, Kubernetes) that translate seamlessly across production-grade cluster architectures.\n\nFurthermore, unit economics during the validation phase improve substantially because Lambda enforces transparent, competitive per-GPU hourly rates coupled with zero inter-instance data transfer fees within their data centers. This structure allows engineering leads to run parameter-heavy distributed jobs without triggering unexpected network egress invoices, providing financial predictability as technical teams scale up from initial fine-tuning experiments into high-throughput inference deployment.",
+    "requirements": [
+      "Legally incorporated entity (e.g., C-Corp, LLC) established within the last 5 years",
+      "Verified corporate domain with matching professional founder email address",
+      "Active, demonstrable machine learning or AI workload deployment plan",
+      "Backing from a recognized venture capital firm, incubator, or seed accelerator",
+      "Valid company website and working prototype, demo, or public technical documentation"
+    ],
+    "rejectionPitfalls": [
+      "Crypto-mining or non-AI distributed compute patterns that violate GPU workload classifications",
+      "Lack of institutional backing or accelerator affiliation for higher-tier credit tranches",
+      "Failure to clearly delineate GPU architecture requirements and target compute consumption timelines",
+      "Submitting incomplete entity registrations or disposable business domains during intake"
+    ],
+    "successFactors": [
+      "Formal affiliation or endorsement from accredited VC partners or tier-1 startup accelerators",
+      "Transparent technical roadmap specifying instance families (e.g., 8x H100 SXM5) and framework dependencies",
+      "Active GitHub repository or clear product demo proving applied AI or foundational model work"
+    ],
+    "eligibleServices": [
+      "Lambda GPU Cloud On-Demand Instances (NVIDIA H100, A100, L40S)",
+      "Lambda 1-Click PyTorch & TensorFlow Compute Environments",
+      "Distributed Persistent Cloud Storage Volumes",
+      "Lambda Inference API Endpoints",
+      "High-Performance Cloud Filesystems (NVMe-backed NFS)"
+    ],
+    "applicationUrl": "https://lambdalabs.com/startups",
+    "citations": [
+      {
+        "title": "Lambda Cloud Startup Program & Overview",
+        "url": "https://lambdalabs.com/startups"
+      },
+      {
+        "title": "Lambda Cloud GPU Pricing and Instances",
+        "url": "https://lambdalabs.com/service/gpu-cloud"
+      },
+      {
+        "title": "Lambda Cloud Terms of Service & Acceptable Use Policy",
+        "url": "https://lambdalabs.com/terms-of-service"
+      }
+    ],
+    "auditDate": "September 14, 2026",
+    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(0.28)\">\n    <title>Lambda</title><path d=\"M2 2h20v20H2V2zm1.768 18.237h16.459V3.761H3.768v16.476zm3.515-14.91l3.479 6.176-3.871 7.154h2.493l2.58-4.883 2.747 4.883h2.54L9.82 5.324l-2.538.002z\"></path>\n  </g>\n</svg>"
+  },
+  {
+    "id": "groqcloud-builder-program",
+    "name": "GroqCloud",
+    "org": "Groq, Inc.",
+    "programName": "GroqCloud Builder Program",
+    "maxCredits": "$25,000",
+    "numericValue": 25000,
+    "currency": "USD",
+    "category": "Frontier AI & Models",
+    "badge": "LPU Ultra-Low Latency Inference",
+    "topDisqualifier": "Asynchronous Batch Architecture Lacking Real-Time Latency Sensitivity",
+    "shortDisqualifier": "DQ: Batch-Only Workloads",
+    "disqualifierDetail": "GroqCloud's allocation committee selectively reserves compute subsidies for interactive, latency-critical applications that justify Language Processing Unit (LPU) architectural advantages over generic GPU clusters. Applications architected for asynchronous offline data mining, batch scraping, or non-interactive background jobs are routed out of the review funnel without grant allocation.",
+    "disqualifierSource": "GroqCloud Builder Evaluation Guidelines & Program Terms, Compute Allocation Scope",
+    "turnaroundTime": "5\u20137 Business Days",
+    "equityTaken": "0% (Non-Dilutive)",
+    "perkHighlight": "Up to $25,000 in non-dilutive LPU inference credits covering open-weights LLMs, vision models, and ultra-fast Whisper speech-to-text endpoints.",
+    "brandColor": "#F55036",
+    "executiveSummary": "The GroqCloud Builder Program furnishes up to $25,000 in non-dilutive inference credits, giving seed and early-stage founders direct economic leverage against prohibitive token burn rates. By shifting high-frequency inference workloads to Groq's Tensor Streaming Processor architecture, venture-backed teams can achieve sub-second generation latencies while preserving cash runway for core product engineering.",
+    "essay": "From a balance-sheet perspective, running frontier inference on commoditized hyperscaler GPUs represents an unsustainable variable cost center during initial product scaling. The GroqCloud Builder Program counters this margin erosion by granting early-stage companies structured credit tranches of up to $25,000. Built on Groq's deterministic LPU (Language Processing Unit) silicon, the platform sidesteps standard memory-bandwidth bottlenecks, delivering token generation speeds exceeding 300 tokens per second across open-weights models such as Llama 3.3 and DeepSeek variants. This economic dynamic converts what would typically be a $5,000-to-$10,000 monthly inference expense on traditional cloud providers into a zero-cash-burn sandbox during critical customer discovery phases.\n\nThe strategic value of the program centers on architectural alignment: Groq provides near-instantaneous output that is essential for voice-agent orchestration, synchronous copilots, and deterministic autonomous agent frameworks. Startups selected for the highest credit brackets bypass default rate limits and gain dedicated enterprise throughput tiers, preventing sudden 429 throttling spikes during product launches or investor demonstrations. The credits apply directly across GroqCloud's API endpoints, spanning high-parameter text generation, multi-modal vision pipelines, and Whisper Large audio transcription.\n\nTo preserve grant integrity, Groq mandates strict operational criteria: the program targets technology-first ventures with verifiable corporate identities, active software architecture, and real-time end-user interaction loops. By stripping token inference costs out of the early-stage cost-of-goods-sold (COGS) model, founders can demonstrate attractive gross margin profiles to potential Series A investors while stress-testing complex, multi-agent architectures at scale.",
+    "requirements": [
+      "Legally incorporated corporate entity (C-Corp, LLC, or international equivalent)",
+      "Authenticated corporate domain email address (public email providers like Gmail or ProtonMail trigger instant disqualification)",
+      "Functional public application, live staging prototype, or production demo demonstrating real-time token consumption",
+      "Under $10,000,000 in total outside equity funding and less than 5 years in business",
+      "Integration architecture planned or active using GroqCloud API SDKs (OpenAI-compatible client format)"
+    ],
+    "rejectionPitfalls": [
+      "Applying with a mock landing page or concept-only pitch deck lacking an operational codebase or working software prototype",
+      "Designing use cases around static, bulk offline data processing where high token-per-second throughput provides zero user-facing utility",
+      "Disclosing a pre-existing enterprise SLA with another dedicated inference provider without demonstrating a clear technical migration or split-routing strategy"
+    ],
+    "successFactors": [
+      "Demonstrating an interactive voice, dynamic agentic loop, or ultra-low-latency chat interface where response velocity is an existential product requirement",
+      "Affiliation with recognized accelerators (e.g., Y Combinator, Techstars) or institutional early-stage venture capital funds",
+      "Supplying verified baseline telemetry showcasing an existing monthly token burn that GroqCloud can directly absorb and accelerate"
+    ],
+    "eligibleServices": [
+      "GroqCloud LPU Inference API Endpoints (e.g., Llama 3.3 70B, Llama 3.1 8B)",
+      "Whisper-large-v3 Speech-to-Text low-latency processing endpoints",
+      "Mixtral and Gemma open-weights inference models",
+      "Enterprise API rate-limit tier elevations and custom throughput quotas",
+      "GroqCloud Console analytics, monitoring, and API key management toolkits"
+    ],
+    "applicationUrl": "https://groq.com/startups",
+    "citations": [
+      {
+        "title": "Groq for Startups Program Portal",
+        "url": "https://groq.com/startups"
+      },
+      {
+        "title": "GroqCloud Developer Documentation & Pricing Architecture",
+        "url": "https://console.groq.com/docs/rate-limits"
+      }
+    ],
+    "auditDate": "September 14, 2026",
+    "logoSvg": "<svg viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full h-full\">\n  <rect width=\"48\" height=\"48\" rx=\"10\" class=\"logo-backdrop\" fill=\"#FFFFFF\" stroke=\"#E5E7EB\" stroke-width=\"1.2\"/>\n  <g transform=\"translate(10, 10) scale(0.28)\">\n    <title>Groq</title><path d=\"M12.036 2c-3.853-.035-7 3-7.036 6.781-.035 3.782 3.055 6.872 6.908 6.907h2.42v-2.566h-2.292c-2.407.028-4.38-1.866-4.408-4.23-.029-2.362 1.901-4.298 4.308-4.326h.1c2.407 0 4.358 1.915 4.365 4.278v6.305c0 2.342-1.944 4.25-4.323 4.279a4.375 4.375 0 01-3.033-1.252l-1.851 1.818A7 7 0 0012.029 22h.092c3.803-.056 6.858-3.083 6.879-6.816v-6.5C18.907 4.963 15.817 2 12.036 2z\"></path>\n  </g>\n</svg>"
   }
 ]

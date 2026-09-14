@@ -41,7 +41,7 @@ SVG_LOGOS = {
     "aws-activate": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
   <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
   <g transform="translate(10, 10) scale(1.16)">
-    <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z" fill="#FF9900"/>
+    <path class="aws-letters" d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z" fill="#FF9900"/>
   </g>
 </svg>""",
     "nvidia-inception": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
@@ -122,6 +122,36 @@ SVG_LOGOS = {
     <title>Cerebras</title><path clip-rule="evenodd" d="M14.121 2.701a9.299 9.299 0 000 18.598V22.7c-5.91 0-10.7-4.791-10.7-10.701S8.21 1.299 14.12 1.299V2.7zm4.752 3.677A7.353 7.353 0 109.42 17.643l-.901 1.074a8.754 8.754 0 01-1.08-12.334 8.755 8.755 0 0112.335-1.08l-.901 1.075zm-2.255.844a5.407 5.407 0 00-5.048 9.563l-.656 1.24a6.81 6.81 0 016.358-12.043l-.654 1.24zM14.12 8.539a3.46 3.46 0 100 6.922v1.402a4.863 4.863 0 010-9.726v1.402z"></path><path d="M15.407 10.836a2.24 2.24 0 00-.51-.409 1.084 1.084 0 00-.544-.152c-.255 0-.483.047-.684.14a1.58 1.58 0 00-.84.912c-.074.203-.11.416-.11.631 0 .218.036.43.11.631a1.594 1.594 0 00.84.913c.2.093.43.14.684.14.216 0 .417-.046.602-.135.188-.09.35-.225.475-.392l.928 1.006c-.14.14-.3.261-.482.363a3.367 3.367 0 01-1.083.38c-.17.026-.317.04-.44.04a3.315 3.315 0 01-1.182-.21 2.825 2.825 0 01-.961-.597 2.816 2.816 0 01-.644-.929 2.987 2.987 0 01-.238-1.21c0-.444.08-.847.238-1.21.15-.35.368-.666.643-.929.278-.261.605-.464.962-.596a3.315 3.315 0 011.182-.21c.355 0 .712.068 1.072.204.361.138.685.36.944.649l-.962.97z"></path>
   </g>
 </svg>""",
+    "cerebras-cloud-startups": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <g transform="translate(10, 10) scale(1.16)" fill="#FF6422">
+    <title>Cerebras</title><path clip-rule="evenodd" d="M14.121 2.701a9.299 9.299 0 000 18.598V22.7c-5.91 0-10.7-4.791-10.7-10.701S8.21 1.299 14.12 1.299V2.7zm4.752 3.677A7.353 7.353 0 109.42 17.643l-.901 1.074a8.754 8.754 0 01-1.08-12.334 8.755 8.755 0 0112.335-1.08l-.901 1.075zm-2.255.844a5.407 5.407 0 00-5.048 9.563l-.656 1.24a6.81 6.81 0 016.358-12.043l-.654 1.24zM14.12 8.539a3.46 3.46 0 100 6.922v1.402a4.863 4.863 0 010-9.726v1.402z"></path><path d="M15.407 10.836a2.24 2.24 0 00-.51-.409 1.084 1.084 0 00-.544-.152c-.255 0-.483.047-.684.14a1.58 1.58 0 00-.84.912c-.074.203-.11.416-.11.631 0 .218.036.43.11.631a1.594 1.594 0 00.84.913c.2.093.43.14.684.14.216 0 .417-.046.602-.135.188-.09.35-.225.475-.392l.928 1.006c-.14.14-.3.261-.482.363a3.367 3.367 0 01-1.083.38c-.17.026-.317.04-.44.04a3.315 3.315 0 01-1.182-.21 2.825 2.825 0 01-.961-.597 2.816 2.816 0 01-.644-.929 2.987 2.987 0 01-.238-1.21c0-.444.08-.847.238-1.21.15-.35.368-.666.643-.929.278-.261.605-.464.962-.596a3.315 3.315 0 011.182-.21c.355 0 .712.068 1.072.204.361.138.685.36.944.649l-.962.97z"></path>
+  </g>
+</svg>""",
+    "together-ai-startup-program": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <g transform="translate(10, 10) scale(0.28)">
+    <title>together.ai</title><path d="M23.197 4.503A6 6 0 0015 2.307a5.973 5.973 0 00-2.995 4.933l5.996.008v.515h-5.996c.039.937.298 1.87.8 2.74a6 6 0 1010.39-6z"></path><path d="M.805 4.5A6 6 0 003 12.697a5.972 5.972 0 005.77.127L5.779 7.627l.446-.257 2.997 5.192A6 6 0 10.804 4.5z"></path><path d="M12 23.894a6 6 0 005.999-6c0-2.13-1.1-3.996-2.775-5.06l-3.005 5.189-.444-.258 2.997-5.192A6 6 0 1012 23.894z"></path>
+  </g>
+</svg>""",
+    "mistral-ai-startup-access": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <g transform="translate(10, 10) scale(0.28)">
+    <title>Mistral</title><path clip-rule="evenodd" d="M3.428 3.4h3.429v3.428h3.429v3.429h-.002 3.431V6.828h3.427V3.4h3.43v13.714H24v3.429H13.714v-3.428h-3.428v-3.429h-3.43v3.428h3.43v3.429H0v-3.429h3.428V3.4zm10.286 13.715h3.428v-3.429h-3.427v3.429z"></path>
+  </g>
+</svg>""",
+    "groqcloud-builder-program": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <g transform="translate(10, 10) scale(0.28)">
+    <title>Groq</title><path d="M12.036 2c-3.853-.035-7 3-7.036 6.781-.035 3.782 3.055 6.872 6.908 6.907h2.42v-2.566h-2.292c-2.407.028-4.38-1.866-4.408-4.23-.029-2.362 1.901-4.298 4.308-4.326h.1c2.407 0 4.358 1.915 4.365 4.278v6.305c0 2.342-1.944 4.25-4.323 4.279a4.375 4.375 0 01-3.033-1.252l-1.851 1.818A7 7 0 0012.029 22h.092c3.803-.056 6.858-3.083 6.879-6.816v-6.5C18.907 4.963 15.817 2 12.036 2z"></path>
+  </g>
+</svg>""",
+    "lambda-labs-startup-credits": """<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <rect width="48" height="48" rx="10" class="logo-backdrop" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <g transform="translate(10, 10) scale(0.28)">
+    <title>Lambda</title><path d="M2 2h20v20H2V2zm1.768 18.237h16.459V3.761H3.768v16.476zm3.515-14.91l3.479 6.176-3.871 7.154h2.493l2.58-4.883 2.747 4.883h2.54L9.82 5.324l-2.538.002z"></path>
+  </g>
+</svg>""",
 }
 
 for c in companies:
@@ -157,6 +187,7 @@ html_content = f"""<!DOCTYPE html>
       --bg-card: #FFFFFF;
       --bg-card-hover: #FBFBFC;
       --bg-card-active: #F8F9FA;
+      --bg-card-subtle: #F8FAFC;
       --bg-subtle: #F8F9FA;
       --bg-tag: #F1F3F5;
       --bg-pill: #F3F4F6;
@@ -203,6 +234,7 @@ html_content = f"""<!DOCTYPE html>
       --bg-card: #171B21;
       --bg-card-hover: #1D222A;
       --bg-card-active: #212730;
+      --bg-card-subtle: #14181E;
       --bg-subtle: #171B21;
       --bg-tag: #1F242C;
       --bg-pill: #1C2128;
@@ -238,6 +270,10 @@ html_content = f"""<!DOCTYPE html>
     [data-theme="dark"] .logo-backdrop {{
       fill: #1A1F26 !important;
       stroke: rgba(255, 255, 255, 0.12) !important;
+    }}
+
+    [data-theme="dark"] .aws-letters {{
+      fill: #FFFFFF !important;
     }}
 
     * {{
@@ -350,6 +386,23 @@ html_content = f"""<!DOCTYPE html>
       box-shadow: var(--shadow-shell-mobile);
     }}
 
+    .app-shell.mobile-mode .controls-row {{
+      padding: 12px 16px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }}
+
+    .app-shell.mobile-mode .category-pills {{
+      flex-wrap: wrap;
+      gap: 6px;
+    }}
+
+    .app-shell.mobile-mode .search-box {{
+      max-width: 100%;
+      min-width: 100%;
+    }}
+
     /* Minimalist Header */
     .app-header {{
       padding: 28px 32px 20px 32px;
@@ -432,6 +485,116 @@ html_content = f"""<!DOCTYPE html>
       color: var(--text-muted);
       font-weight: 400;
       letter-spacing: -0.1px;
+    }}
+
+    /* Controls: Category Filter Pills & Live Search Bar */
+    .controls-row {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 32px;
+      border-bottom: 1px solid var(--border-subtle);
+      background: var(--bg-card-subtle);
+      flex-wrap: wrap;
+    }}
+
+    .category-pills {{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }}
+
+    .cat-pill {{
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-family: var(--font-ui);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      user-select: none;
+      box-shadow: var(--shadow-subtle);
+      white-space: nowrap;
+    }}
+
+    .cat-pill:hover {{
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+      background: var(--bg-card-hover);
+    }}
+
+    .cat-pill.active {{
+      background: var(--text-primary);
+      color: var(--bg-shell);
+      border-color: var(--text-primary);
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    }}
+
+    [data-theme="dark"] .cat-pill.active {{
+      background: #F8FAFC;
+      color: #0F172A;
+      border-color: #F8FAFC;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    }}
+
+    .search-box {{
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      min-width: 240px;
+      max-width: 360px;
+    }}
+
+    .search-box input,
+    #program-search {{
+      width: 100%;
+      height: 35px;
+      padding: 0 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 999px;
+      color: var(--text-primary);
+      font-family: var(--font-ui);
+      font-size: 12.5px;
+      outline: none;
+      box-shadow: var(--shadow-subtle);
+      transition: all 0.15s ease;
+    }}
+
+    .search-box input::placeholder,
+    #program-search::placeholder {{
+      color: var(--text-faint);
+      font-family: var(--font-ui);
+      font-size: 12px;
+    }}
+
+    .search-box input:focus,
+    #program-search:focus {{
+      border-color: var(--border-hover);
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+      background: var(--bg-shell);
+    }}
+
+    .carousel-empty-state {{
+      width: 100%;
+      padding: 36px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      font-family: var(--font-ui);
+      font-size: 13.5px;
+      background: var(--bg-card-subtle);
+      border-radius: var(--radius-tile);
+      border: 1px dashed var(--border-subtle);
     }}
 
     /* Carousel Track Section */
@@ -786,6 +949,20 @@ html_content = f"""<!DOCTYPE html>
       }}
       .app-header {{
         padding: 20px 16px 16px 16px;
+      }}
+      .controls-row {{
+        padding: 12px 16px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+      }}
+      .category-pills {{
+        flex-wrap: wrap;
+        gap: 6px;
+      }}
+      .search-box {{
+        max-width: 100%;
+        min-width: 100%;
       }}
       .carousel-section {{
         padding: 18px 16px 16px 16px;
@@ -1312,9 +1489,23 @@ html_content = f"""<!DOCTYPE html>
             <span class="wordmark-name">Startup Stack</span>
           </div>
         </div>
-        <span class="brand-count">16 PROGRAMS</span>
+        <span class="brand-count">{len(companies)} PROGRAMS</span>
       </div>
       <p class="brand-subtitle">The Pre-Flight Audited Cloud Compute, Foundation Model &amp; SaaS Treasury for AI Founders.</p>
+    </div>
+
+    <!-- Controls Row: Category Filter Pills & Live Search Bar -->
+    <div class="controls-row">
+      <div class="category-pills">
+        <button class="cat-pill active" onclick="setCategory('All')">All</button>
+        <button class="cat-pill" onclick="setCategory('Hyperscalers')">Hyperscalers</button>
+        <button class="cat-pill" onclick="setCategory('Frontier AI')">Frontier AI</button>
+        <button class="cat-pill" onclick="setCategory('GPU &amp; Compute')">GPU &amp; Compute</button>
+        <button class="cat-pill" onclick="setCategory('Dev Infra')">Dev Infra</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="program-search" placeholder="Search 20 programs, models, disqualifiers..." oninput="handleSearch(this.value)" />
+      </div>
     </div>
 
     <!-- Minimal Carousel -->
@@ -1346,6 +1537,83 @@ html_content = f"""<!DOCTYPE html>
     let activeTab = 'essay';
     let currentTheme = 'light';
     let isMobileView = false;
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    const CATEGORY_MAP = {{
+      'hyperscalers': ['google-cloud', 'microsoft-founders-hub', 'aws-activate', 'oracle-cloud'],
+      'frontier-ai': ['openai-startups', 'anthropic-startups', 'perplexity-startups', 'deepinfra-startups', 'cerebras-cloud-startups', 'together-ai-startup-program', 'mistral-ai-startup-access', 'groqcloud-builder-program'],
+      'gpu-compute': ['nvidia-inception', 'scaleway-startups', 'runpod-startups', 'lambda-labs-startup-credits'],
+      'dev-infra': ['cloudflare-startups', 'supabase-startups', 'posthog-startups', 'stripe-startups']
+    }};
+
+    function setCategory(cat) {{
+      currentCategory = cat;
+      const normalizedCat = cat.toLowerCase().replace(/[\s&]+/g, '-');
+
+      const pills = document.querySelectorAll('.cat-pill');
+      pills.forEach(btn => {{
+        const btnText = btn.textContent.trim().toLowerCase().replace(/[\s&]+/g, '-');
+        const isMatch = (normalizedCat === 'all' && (btnText === 'all' || btnText === '')) ||
+                        (normalizedCat.includes('hyper') && btnText.includes('hyper')) ||
+                        (normalizedCat.includes('frontier') && btnText.includes('frontier')) ||
+                        ((normalizedCat.includes('gpu') || normalizedCat.includes('compute')) && (btnText.includes('gpu') || btnText.includes('compute'))) ||
+                        ((normalizedCat.includes('dev') || normalizedCat.includes('infra')) && (btnText.includes('dev') || btnText.includes('infra')));
+        if (isMatch) {{
+          btn.classList.add('active');
+        }} else {{
+          btn.classList.remove('active');
+        }}
+      }});
+
+      renderCarousel();
+    }}
+
+    function handleSearch(q) {{
+      searchQuery = q || '';
+      renderCarousel();
+    }}
+
+    function getFilteredCompanies() {{
+      const q = searchQuery.trim().toLowerCase();
+      const normCat = currentCategory.toLowerCase().replace(/[\s&]+/g, '-');
+
+      return COMPANIES_DATA.filter(c => {{
+        // Category filtering
+        if (normCat !== 'all') {{
+          let allowedIds = [];
+          if (normCat.includes('hyper')) {{
+            allowedIds = CATEGORY_MAP['hyperscalers'];
+          }} else if (normCat.includes('frontier')) {{
+            allowedIds = CATEGORY_MAP['frontier-ai'];
+          }} else if (normCat.includes('gpu') || normCat.includes('compute')) {{
+            allowedIds = CATEGORY_MAP['gpu-compute'];
+          }} else if (normCat.includes('dev') || normCat.includes('infra')) {{
+            allowedIds = CATEGORY_MAP['dev-infra'];
+          }}
+          if (!allowedIds.includes(c.id)) {{
+            return false;
+          }}
+        }}
+
+        // Search filtering: matches name, programName, topDisqualifier, perkHighlight, or eligibleServices
+        if (q) {{
+          const inName = c.name && c.name.toLowerCase().includes(q);
+          const inProgram = c.programName && c.programName.toLowerCase().includes(q);
+          const inDisqualifier = c.topDisqualifier && c.topDisqualifier.toLowerCase().includes(q);
+          const inPerk = c.perkHighlight && c.perkHighlight.toLowerCase().includes(q);
+          const inServices = Array.isArray(c.eligibleServices)
+            ? c.eligibleServices.some(s => s && s.toLowerCase().includes(q))
+            : (typeof c.eligibleServices === 'string' && c.eligibleServices.toLowerCase().includes(q));
+
+          if (!inName && !inProgram && !inDisqualifier && !inPerk && !inServices) {{
+            return false;
+          }}
+        }}
+
+        return true;
+      }});
+    }}
 
     function setTheme(theme) {{
       currentTheme = theme;
@@ -1406,7 +1674,19 @@ html_content = f"""<!DOCTYPE html>
 
     function renderCarousel() {{
       const track = document.getElementById('carousel-track');
-      track.innerHTML = COMPANIES_DATA.map(c => {{
+      const filtered = getFilteredCompanies();
+
+      if (filtered.length === 0) {{
+        track.innerHTML = '<div class="carousel-empty-state">No programs match your search or filter.</div>';
+        renderDetail();
+        return;
+      }}
+
+      if (!filtered.some(c => c.id === selectedId)) {{
+        selectedId = filtered[0].id;
+      }}
+
+      track.innerHTML = filtered.map(c => {{
         const isSelected = c.id === selectedId;
         return `
           <div class="square-tile ${{isSelected ? 'active' : ''}}" onclick="selectCompany('${{c.id}}')">
@@ -1420,11 +1700,25 @@ html_content = f"""<!DOCTYPE html>
           </div>
         `;
       }}).join('');
+
+      renderDetail();
     }}
 
     function renderDetail() {{
       const container = document.getElementById('detail-view');
-      const c = COMPANIES_DATA.find(item => item.id === selectedId) || COMPANIES_DATA[0];
+      const filtered = getFilteredCompanies();
+
+      if (filtered.length === 0) {{
+        container.innerHTML = `
+          <div class="carousel-empty-state" style="margin: 20px 0; border: none; padding: 48px 24px;">
+            <p style="font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px;">No programs match your search or filter.</p>
+            <p style="font-size: 13px; color: var(--text-muted);">Try adjusting your category filter or search terms above.</p>
+          </div>
+        `;
+        return;
+      }}
+
+      const c = COMPANIES_DATA.find(item => item.id === selectedId) || filtered[0] || COMPANIES_DATA[0];
 
       container.innerHTML = `
         <div class="detail-header">

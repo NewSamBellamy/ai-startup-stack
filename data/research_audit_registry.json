@@ -206,5 +206,49 @@
     "interactionId": "v1_ChdzSWVrYXJybklOaWR6N0lQdWFXOTRBbxIXc0lla2Fycm5JTmlkejdJUHVhVzk0QW8",
     "researchDate": "September 12, 2026",
     "coverageScope": "Up to $100K+ in non-dilutive compute credits for world-record token-per-second LLM inference and large-scale model training."
+  },
+  "together-ai-startup-program": {
+    "id": "together-ai-startup-program",
+    "company": "Together AI",
+    "program": "Together AI Startup Program",
+    "auditDate": "September 14, 2026",
+    "maxCredits": "$25,000",
+    "topDisqualifier": "Proprietary API Wrapper Architecture Without Open-Weights Pipeline",
+    "applicationUrl": "https://www.together.ai/startups",
+    "urlVerificationStatus": "HTTP 404",
+    "citationsCount": 2
+  },
+  "mistral-ai-startup-access": {
+    "id": "mistral-ai-startup-access",
+    "company": "Mistral AI",
+    "program": "Mistral AI Startup Access",
+    "auditDate": "September 14, 2026",
+    "maxCredits": "$25,000",
+    "topDisqualifier": "Unverified Business Entity & Consumer Domain Applications",
+    "applicationUrl": "https://mistral.ai/contact/",
+    "urlVerificationStatus": "HTTP 200",
+    "citationsCount": 3
+  },
+  "lambda-labs-startup-credits": {
+    "id": "lambda-labs-startup-credits",
+    "company": "Lambda Labs",
+    "program": "Lambda Labs Startup Compute",
+    "auditDate": "September 14, 2026",
+    "maxCredits": "$25,000",
+    "topDisqualifier": "Unbacked Free-Tier Email & Non-Incorporated Entity",
+    "applicationUrl": "https://lambdalabs.com/startups",
+    "urlVerificationStatus": "HTTP 404",
+    "citationsCount": 3
+  },
+  "groqcloud-builder-program": {
+    "id": "groqcloud-builder-program",
+    "company": "GroqCloud",
+    "program": "GroqCloud Builder Program",
+    "auditDate": "September 14, 2026",
+    "maxCredits": "$25,000",
+    "topDisqualifier": "Asynchronous Batch Architecture Lacking Real-Time Latency Sensitivity",
+    "applicationUrl": "https://groq.com/startups",
+    "urlVerificationStatus": "HTTP 404",
+    "citationsCount": 2
   }
 }
