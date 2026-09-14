@@ -1358,6 +1358,39 @@ html_content = f"""<!DOCTYPE html>
       transition: transform 0.3s ease;
     }}
 
+    .portal-screenshot-dark {{
+      display: none;
+    }}
+
+    [data-theme="dark"] .portal-screenshot-light {{
+      display: none;
+    }}
+
+    [data-theme="dark"] .portal-screenshot-dark {{
+      display: block;
+    }}
+
+    [data-theme="dark"] .portal-preview-card {{
+      background: #0E1217;
+      border-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+    }}
+
+    [data-theme="dark"] .portal-mockup-header {{
+      background: #14181F;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }}
+
+    [data-theme="dark"] .mockup-address {{
+      background: #0B0E12;
+      border-color: rgba(255, 255, 255, 0.08);
+      color: #94A3B8;
+    }}
+
+    [data-theme="dark"] .mockup-dots span {{
+      opacity: 0.6;
+    }}
+
     .portal-preview-card:hover .portal-screenshot-img {{
       transform: scale(1.015);
     }}
@@ -1774,7 +1807,8 @@ html_content = f"""<!DOCTYPE html>
           </div>
           <div class="mockup-viewport">
             <a href="${{c.applicationUrl}}" target="_blank" rel="noopener noreferrer" title="Click to open ${{c.name}} portal">
-              <img src="${{c.portalScreenshot || ('assets/portals/' + c.id + '.png')}}" alt="${{c.name}} Official Portal Preview" class="portal-screenshot-img" onerror="this.parentElement.parentElement.parentElement.style.display='none'" />
+              <img src="${{c.portalScreenshot || ('assets/portals/' + c.id + '.png')}}" alt="${{c.name}} Official Portal Preview (Light)" class="portal-screenshot-img portal-screenshot-light" />
+              <img src="${{'assets/portals/dark/' + c.id + '.png'}}" alt="${{c.name}} Official Portal Preview (Dark)" class="portal-screenshot-img portal-screenshot-dark" onerror="this.style.display='none'; this.previousElementSibling.style.display='block';" />
             </a>
           </div>
         </div>
