@@ -167,19 +167,18 @@ html_content = f"""<!DOCTYPE html>
   <title>AI Startup Stack — Startup Credits & GPU Treasury</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Parkinsans:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     /* ==========================================================================
-       MINIMAL EDITORIAL TOKENS & TYPOGRAPHY SYSTEM
-       Strict 3-Font Hierarchy (No Default System Fonts):
-       1. Parkinsans: Display, Brand & Numbers
-       2. Plus Jakarta Sans: Interface, UI Controls & Body Copy
-       3. Geist Mono: Citations, Codes, URLs & Technical Metadata
+       DISCIPLINED DESIGN SYSTEM TOKENS & TYPOGRAPHY
+       Strict 2-Font Hierarchy (Zero Vibe-Coded Fonts):
+       1. Inter: UI, Headings, Controls, Brand Wordmark & Body
+       2. Geist Mono: Citations, Codes, Per-Million Rates & Technical Telemetry
        ========================================================================== */
     :root {{
-      --font-display: 'Parkinsans', sans-serif;
-      --font-ui: 'Plus Jakarta Sans', sans-serif;
-      --font-mono: 'Geist Mono', monospace;
+      --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, monospace;
 
       /* Calm Light Paper Palette */
       --bg-page: #F7F7F8;
@@ -1905,6 +1904,24 @@ html_content = f"""<!DOCTYPE html>
                 <strong>Token Runway Fact:</strong> ${{mi.tokenRunwayFact}}
               </div>
             ` : ''}}
+
+            <div class="model-citations-box" style="margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+                <span style="font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.5px;">
+                  Verified Live Citations & Docs (Audited Sep 14, 2026)
+                </span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                ${{c.citations.map((cite, i) => `
+                  <div style="display: flex; align-items: center; gap: 8px; font-size: 11.5px; font-family: var(--font-mono);">
+                    <span style="color: var(--accent-green); font-weight: 700;">[${{i+1}}]</span>
+                    <a href="${{cite.url}}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-blue); text-decoration: none;">
+                      ${{cite.title}} &#8599;
+                    </a>
+                  </div>
+                `).join('')}}
+              </div>
+            </div>
           </div>
         ` : '';
 
