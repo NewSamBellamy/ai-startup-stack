@@ -1054,18 +1054,14 @@ html_content = f"""<!DOCTYPE html>
     }}
 
     .product-item-card {{
-      background: var(--bg-card-subtle);
-      border: 1px solid var(--border-subtle);
-      border-radius: 10px;
-      padding: 14px 16px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-subtle);
+      border-radius: 0;
+      padding: 14px 0;
       display: flex;
       flex-direction: column;
-      gap: 6px;
-      transition: border-color 0.15s ease;
-    }}
-
-    .product-item-card:hover {{
-      border-color: var(--border-hover);
+      gap: 4px;
     }}
 
     .product-item-header {{
@@ -1108,10 +1104,11 @@ html_content = f"""<!DOCTYPE html>
 
     .perks-section {{
       margin-top: 22px;
-      background: rgba(5, 150, 105, 0.04);
-      border: 1px solid rgba(5, 150, 105, 0.2);
-      border-radius: 10px;
-      padding: 14px 18px;
+      background: transparent;
+      border: none;
+      border-top: 1px solid var(--border-subtle);
+      border-radius: 0;
+      padding: 14px 0 0 0;
     }}
 
     .perks-title {{
@@ -1150,12 +1147,13 @@ html_content = f"""<!DOCTYPE html>
 
     .finops-warning-box {{
       margin-top: 18px;
-      background: rgba(239, 68, 68, 0.04);
-      border: 1px solid rgba(239, 68, 68, 0.2);
-      border-radius: 10px;
-      padding: 14px 18px;
+      background: transparent;
+      border: none;
+      border-left: 2px solid var(--accent-red);
+      border-radius: 0;
+      padding: 6px 0 6px 14px;
       font-family: var(--font-ui);
-      font-size: 12px;
+      font-size: 12.5px;
       line-height: 1.55;
       color: var(--text-secondary);
     }}
@@ -1170,10 +1168,11 @@ html_content = f"""<!DOCTYPE html>
 
     .model-inference-section {{
       margin-top: 22px;
-      background: rgba(37, 99, 235, 0.03);
-      border: 1px solid rgba(37, 99, 235, 0.18);
-      border-radius: 10px;
-      padding: 16px 18px;
+      background: transparent;
+      border: none;
+      border-top: 1px solid var(--border-subtle);
+      border-radius: 0;
+      padding: 14px 0 0 0;
     }}
 
     .model-section-title {{
@@ -1423,18 +1422,20 @@ html_content = f"""<!DOCTYPE html>
       display: flex;
       align-items: flex-start;
       gap: 12px;
-      padding: 10px 14px;
-      border-radius: 8px;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
+      padding: 10px 0;
+      border-radius: 0;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-subtle);
       font-size: 13px;
       line-height: 1.55;
       color: var(--text-secondary);
     }}
 
     .clean-item.danger {{
-      background: var(--bg-card-subtle);
-      border-color: var(--border-subtle);
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-subtle);
       color: var(--text-secondary);
     }}
 
@@ -1463,10 +1464,11 @@ html_content = f"""<!DOCTYPE html>
     }}
 
     .source-card {{
-      padding: 14px 16px;
-      border-radius: 10px;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
+      padding: 12px 0;
+      border-radius: 0;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border-subtle);
       display: flex;
       flex-direction: column;
       gap: 4px;
@@ -1829,7 +1831,7 @@ html_content = f"""<!DOCTYPE html>
     function renderTabContent(c) {{
       if (activeTab === 'essay') {{
         const summary = `
-          <div style="background: var(--bg-card-subtle); border-left: 3px solid var(--accent-green); padding: 14px 18px; border-radius: 0 8px 8px 0; margin-bottom: 22px; font-family: var(--font-ui); font-style: italic; font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
+          <div style="background: transparent; border-left: 2px solid var(--accent-green); padding: 4px 0 4px 14px; border-radius: 0; margin-bottom: 20px; font-family: var(--font-ui); font-style: italic; font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
             &ldquo;${{c.executiveSummary}}&rdquo;
           </div>
         `;
@@ -1960,7 +1962,7 @@ html_content = f"""<!DOCTYPE html>
 
       if (activeTab === 'requirements') {{
         const topDqBanner = `
-          <div style="background: var(--bg-card-subtle); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 14px 16px; margin-bottom: 20px;">
+          <div style="background: transparent; border: none; border-left: 2px solid var(--text-primary); border-radius: 0; padding: 4px 0 4px 14px; margin-bottom: 20px;">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; flex-wrap: wrap; gap: 6px;">
               <span style="font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.5px;">
                 Primary Eligibility Watchpoint

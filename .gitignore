@@ -1,0 +1,6 @@
+.wrangler/
+__pycache__/
+*.pyc
+test_*.png
+verified_*.png
+inter_design_*.png
