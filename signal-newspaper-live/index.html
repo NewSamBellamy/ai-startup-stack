@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ece7db" />
+  <title>Signal — Newspaper Edition</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="phone-shell">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Menu">☰</button>
+      <div class="brand-wrap">
+        <div class="brand">SIGNAL</div>
+        <div class="brand-sub">CLEARER CONTEXT FOR BRAVER BUILDERS</div>
+      </div>
+      <button class="icon-btn" aria-label="Search">⌕</button>
+    </header>
+
+    <main class="screen" id="screen-root"></main>
+
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-route="today"><span>◼</span><b>Today</b></button>
+      <button class="nav-item" data-route="explore"><span>⌕</span><b>Explore</b></button>
+      <button class="nav-item" data-route="learn"><span>▣</span><b>Learn</b></button>
+      <button class="nav-item" data-route="saved"><span>🔖</span><b>Saved</b></button>
+      <button class="nav-item" data-route="profile"><span>◌</span><b>Profile</b></button>
+    </nav>
+  </div>
+
+  <template id="today-template">
+    <section class="page page-today">
+      <div class="meta-strip">SAT, SEP 19, 2026 <span>•</span> 5 SIGNALS <span>•</span> 7 MIN <span>•</span> 23 SOURCES</div>
+      <article class="hero-card illustrated-frame">
+        <div class="hero-art"></div>
+        <div class="hero-copy">
+          <div class="kicker">TODAY'S SHIFT</div>
+          <h1>AI is moving from product to infrastructure.</h1>
+          <p>Three developments this week quietly made that shift much more real.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" data-route="signal">Read the brief →</button>
+            <button class="link-btn" data-route="connect">3 key signals ↓</button>
+          </div>
+        </div>
+      </article>
+      <section class="section-block">
+        <div class="section-kicker">WHY IT MATTERS</div>
+        <p class="body-copy">AI isn’t just a new app anymore. It’s becoming essential infrastructure — like cloud, chips, and power. That changes who wins, what gets built, and where the opportunities are.</p>
+      </section>
+      <section class="big-picture illustrated-frame small-frame">
+        <div class="section-kicker">THE BIG PICTURE</div>
+        <div class="quote-card">“Cheaper AI isn’t the end goal — it’s the beginning.”<small>— SIGNAL</small></div>
+      </section>
+    </section>
+  </template>
+
+  <template id="signal-template">
+    <section class="page">
+      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>01 / 05 <span>KEY SIGNAL</span></div><button class="share-btn">⋯</button></div>
+      <h1 class="story-title">A new AI chip just changed the economics.</h1>
+      <p class="story-sub">Nvidia’s latest chip delivers 3× more performance per dollar than last year’s flagship.</p>
+      <div class="illustrated-frame chip-frame"></div>
+      <div class="fact-pill">✓ Confirmed by 4 sources</div>
+      <div class="toggle-wrap"><button class="toggle-tab active" id="simpleMode">Simple</button><button class="toggle-tab" id="deepMode">Deep</button></div>
+      <section class="section-block">
+        <div class="section-kicker">SO WHAT DOES THAT ACTUALLY MEAN?</div>
+        <p class="body-copy">It’s now significantly cheaper for companies to run powerful AI models. That lowers the barrier to adopt AI across more industries — not just tech.</p>
+        <div class="definition-card"><strong>Inference ↗</strong><span>When an already-trained AI actually performs a task.</span></div>
+      </section>
+      <section class="section-block deep-only">
+        <div class="section-kicker">WHY IT MATTERS</div>
+        <p class="body-copy">Lower costs change who can build, what gets built, and how fast AI moves from experiments to real-world use.</p>
+      </section>
+      <button class="full-width-btn" data-route="founder">Take me deeper →</button>
+    </section>
+  </template>
+
+  <template id="connect-template">
+    <section class="page">
+      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>02 / 05 <span>CONNECT THE DOTS</span></div><button class="share-btn">⋯</button></div>
+      <h1 class="story-title">These aren’t three separate stories.</h1>
+      <p class="story-sub">They’re evidence of the same transition.</p>
+      <div class="dot-row">
+        <div class="dot-node"><div class="dot-art chip-dot"></div><b>Cheaper AI</b></div>
+        <div class="dot-node"><div class="dot-art office-dot"></div><b>Enterprise adoption</b></div>
+        <div class="dot-node"><div class="dot-art infra-dot"></div><b>Infrastructure buildout</b></div>
+      </div>
+      <div class="section-note">Tap each signal to see how they connect.</div>
+      <div class="chain-list">
+        <button class="chain-item active" data-insight="Cheaper AI means powerful models become affordable to more companies."><span>1</span><div><b>Cheaper AI</b><small>Compute costs drop, making powerful models accessible to more companies.</small></div></button>
+        <button class="chain-item" data-insight="As costs fall, companies integrate AI into core products and workflows."><span>2</span><div><b>Enterprise adoption</b><small>More companies integrate AI into core products and workflows.</small></div></button>
+        <button class="chain-item" data-insight="Growing demand drives more investment in chips, data centers, and energy."><span>3</span><div><b>Infrastructure buildout</b><small>Growing demand drives massive investment in chips, data centers, and energy.</small></div></button>
+      </div>
+      <div class="insight-panel" id="insightPanel">Cheaper AI means powerful models become affordable to more companies.</div>
+      <div class="connection-card illustrated-frame dark-panel">
+        <p><strong>The connection:</strong><br/>Lower costs drive adoption, which drives infrastructure investment, which makes AI even cheaper and more capable.</p>
+      </div>
+    </section>
+  </template>
+
+  <template id="founder-template">
+    <section class="page">
+      <div class="story-header"><button class="back-btn" data-route="signal">←</button><div>03 / 05 <span>FOUNDER LENS</span></div><button class="share-btn">⋯</button></div>
+      <h1 class="story-title founder-title">There’s a less obvious opportunity hiding underneath this story.</h1>
+      <p class="body-copy">Most people are focusing on the chip. The bigger opportunity is in what it unlocks.</p>
+      <button class="primary-btn founder-reveal" id="revealFounder">Reveal insights ↓</button>
+      <div id="founderInsights" class="founder-grid hidden-panel">
+        <div class="number-card"><span>1</span><div><b>What changed economically</b><small>Inference costs are dropping faster than many expected, compressing the cost to serve new use cases.</small></div></div>
+        <div class="number-card"><span>2</span><div><b>Where opportunity may move</b><small>New companies can build specialized tools, vertical applications, and infrastructure services on top of cheaper AI.</small></div></div>
+        <div class="number-card"><span>3</span><div><b>One question worth carrying</b><small>If AI becomes dramatically cheaper and more capable, what industries are most unprepared for the shift?</small></div></div>
+      </div>
+      <section class="section-block expert-block">
+        <div class="section-kicker">EXPERT TAKE • 38 SEC</div>
+        <div class="audio-row"><button class="play-btn">▶</button><div class="waveform">▁▃▅▂▇▄▆▂▅▇▃▆▂▅▃</div></div>
+        <blockquote>“The thing people are overlooking is not just the chip — it’s what this does to the entire supply chain…”</blockquote>
+        <small>— Latent Space Podcast</small>
+      </section>
+    </section>
+  </template>
+
+  <template id="sources-template">
+    <section class="page">
+      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>04 / 05 <span>SOURCES & PERSPECTIVES</span></div><button class="share-btn">⋯</button></div>
+      <h1 class="story-title">Where this story comes from.</h1>
+      <p class="story-sub">We pull from trusted sources and show you why each one matters.</p>
+      <div class="source-list">
+        <button class="source-card"><div class="source-thumb news-thumb"></div><div><b>REUTERS</b><small>Original reporting · 4 min read</small><em>“Nvidia unveils next-gen chip with 3× performance per dollar.”</em></div><span>→</span></button>
+        <button class="source-card"><div class="source-thumb logo-thumb"></div><div><b>NVIDIA</b><small>Company announcement · 6 min read</small><em>“Introducing our next-generation AI chip platform.”</em></div><span>→</span></button>
+        <button class="source-card"><div class="source-thumb face-thumb"></div><div><b>LATENT SPACE</b><small>Technical interpretation · 12 min segment</small><em>“What this chip actually means for the next wave of AI.”</em></div><span>→</span></button>
+        <button class="source-card"><div class="source-thumb mic-thumb"></div><div><b>AI DAILY BRIEF</b><small>Industry reaction · 6 min listen</small><em>“How this changes the competitive landscape.”</em></div><span>→</span></button>
+      </div>
+      <div class="remember-panel dark-panel illustrated-frame">
+        <div class="section-kicker light">IF YOU REMEMBER ONE THING TODAY</div>
+        <p>AI becoming cheaper isn’t the interesting part. What becomes economically possible because it’s cheaper is.</p>
+        <small>Tomorrow, watch: <b>Enterprise AI deployment costs.</b></small>
+      </div>
+    </section>
+  </template>
+
+  <template id="placeholder-template">
+    <section class="page placeholder-page">
+      <h1 class="story-title">Coming next</h1>
+      <p class="story-sub">This section is reserved for the next step of the product build.</p>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
