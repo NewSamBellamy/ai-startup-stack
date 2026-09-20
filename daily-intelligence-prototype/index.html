@@ -3,102 +3,152 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Signal — Daily Intelligence Prototype</title>
+<meta name="theme-color" content="#f4efe5">
+<title>Signal — Daily Intelligence</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main class="app" id="app">
-  <div class="top">
-    <div class="brandrow">
-      <div><div class="brand">Signal</div><div class="date">Prototype · Daily founder intelligence</div></div>
-      <div class="mode"><button id="simpleBtn" class="active">Simple</button><button id="deepBtn">Deep</button></div>
+<main id="app">
+<header class="mast">
+  <div>
+    <div class="wordmark">SIGNAL</div>
+    <div class="strap">CLEARER CONTEXT<br>FOR BRAVER BUILDERS</div>
+  </div>
+  <div class="mast-right">
+    <div class="date">TODAY · 7 MIN</div>
+    <div class="mode"><button id="simpleBtn" class="active">Simple</button><button id="deepBtn">Deep</button></div>
+  </div>
+</header>
+
+<section id="today">
+  <article class="lead reveal">
+    <div class="lead-image"></div>
+    <div class="shade"></div>
+    <div class="lead-index">TODAY'S SHIFT <span>01</span></div>
+    <div class="lead-copy">
+      <h1>AI is moving from product to infrastructure.</h1>
+      <p>What started as clever tools is becoming a core layer of the global economy.</p>
+      <button class="listen" data-toggle="leadExplainer">▶ 90-sec explanation</button>
     </div>
-    <div class="progress"><span id="progress"></span></div>
+  </article>
+
+  <div id="leadExplainer" class="inline-explainer">
+    <div class="eyebrow">IN PLAIN ENGLISH</div>
+    <p>Think about electricity. At first it was a new invention. Then it disappeared into everything. AI may be starting the same transition: less of a single product, more of a capability built into thousands of products.</p>
   </div>
 
-  <section id="today">
-    <h1>What changed today?</h1>
-    <p class="sub">Five things worth understanding — explained simply, connected to the bigger picture, and filtered for what may matter to a founder.</p>
-    <div class="meta"><span class="pill">~7 min</span><span class="pill">5 stories</span><span class="pill">Sources checked</span><span class="pill">Jargon translated</span></div>
-
-    <article class="story">
-      <div class="kicker">01 · AI</div>
-      <h2>The AI race is starting to change shape.</h2>
-      <p class="dek">The biggest shift is no longer only “who has the smartest model?” It is becoming “who can make powerful AI useful, cheap, safe, and dependable?”</p>
-      <div class="hero"></div>
-      <div class="section"><h3>What happened</h3><p>Major AI labs are putting more attention on how increasingly capable systems are tested and deployed — not just on making the next model bigger.</p></div>
-      <div class="section"><h3>Why it matters</h3><p>Think of the early internet: faster connections mattered, but the huge businesses appeared when people figured out what to build on top. AI may be entering a similar phase.</p></div>
-      <div class="section deep-only"><h3>Connect the dots</h3><p>If model performance becomes less of a moat, value can move toward workflow tools, agents, data, distribution, trust, and products that solve one job extremely well.</p></div>
-      <div class="founder"><small>Founder lens</small><p>Instead of asking “How do I build a better model?”, ask “What suddenly becomes possible because the models are already good enough?”</p></div>
-      <button class="sources-toggle">Sources</button>
-      <div class="sources">Demo source layer: primary company announcements, major verified reporting, research papers, AI Daily Brief, Latent Space, Y Combinator, and Everyday AI. In production, each claim would link to the exact source and show whether it is fact, interpretation, or opinion.</div>
-    </article>
-
-    <article class="story">
-      <div class="kicker">02 · Infrastructure</div>
-      <h2>AI has a new problem: all those chips need to talk to each other.</h2>
-      <p class="dek">Imagine hiring 10,000 brilliant people and giving them terrible Wi-Fi. More people do not help if communication is the bottleneck.</p>
-      <div class="section"><h3>What happened</h3><p>More investment is flowing into networking, memory, cooling, power, and data-center technology around AI chips.</p></div>
-      <div class="section"><h3>Why it matters</h3><p>The next huge AI companies may be built around the problems created by AI’s success, not around competing directly with the model makers.</p></div>
-      <div class="founder"><small>Founder lens</small><p>Watch for second-order problems. When an industry grows fast, its pain points become markets.</p></div>
-    </article>
-
-    <article class="story">
-      <div class="kicker">03 · Science</div>
-      <h2>Research papers are starting to act more like software.</h2>
-      <p class="dek">Instead of only reading a paper, AI systems are beginning to help people actually use the method inside it.</p>
-      <div class="section"><h3>Plain English</h3><p>The old path was: scientist publishes → someone reads it → someone rebuilds it. AI can compress those steps and make expert knowledge more usable.</p></div>
-      <div class="section deep-only"><h3>What this could become</h3><p>A future research paper may come with an interactive agent that explains the work, runs the method, and helps apply it to your own problem.</p></div>
-      <div class="founder"><small>Founder lens</small><p>There may be a new product category between “content” and “software”: knowledge you can directly operate.</p></div>
-    </article>
-
-    <article class="story">
-      <div class="kicker">04 · Markets</div>
-      <h2>AI is becoming an economic story, not just a tech story.</h2>
-      <p class="dek">Companies are spending so much on AI infrastructure that changes in AI expectations now ripple into chips, power, markets, hiring, and capital spending.</p>
-      <div class="section"><h3>Why it matters</h3><p>When a technology starts moving the wider economy, it is no longer a niche. It becomes something every founder has to understand, even if they are not building an “AI company.”</p></div>
-      <div class="founder"><small>Founder lens</small><p>Follow cost curves. If an AI task becomes dramatically cheaper, businesses that looked impossible last year may suddenly make sense.</p></div>
-    </article>
-
-    <article class="story">
-      <div class="kicker">05 · World</div>
-      <h2>AI, chips, energy, and geopolitics are becoming one story.</h2>
-      <p class="dek">Countries increasingly treat computing power like strategic infrastructure — closer to energy or manufacturing capacity than ordinary software.</p>
-      <div class="section"><h3>Connect the dots</h3><p>Semiconductors affect AI capability. AI capability affects economic power. Economic power affects national strategy. That is why chip supply chains now matter far beyond Silicon Valley.</p></div>
-      <div class="founder"><small>Founder lens</small><p>Big technology shifts create opportunities — but also dependencies. Know what parts of your product rely on infrastructure or rules you do not control.</p></div>
-    </article>
-
-    <section class="dots">
-      <div class="kicker">The pattern underneath today</div>
-      <h2>AI is turning from a product into infrastructure.</h2>
-      <p>That single idea connects several stories that look unrelated on the surface.</p>
-      <div class="chain">
-        <div>Better models → more useful AI</div>
-        <div>More useful AI → more demand</div>
-        <div>More demand → chips, networking, power, data centers</div>
-        <div>More infrastructure → economic + geopolitical importance</div>
-        <div>Lower costs → entirely new startup opportunities</div>
-      </div>
-      <p><strong>Your takeaway:</strong> the interesting opportunities may increasingly sit one layer around the models, not inside the model race itself.</p>
-    </section>
+  <section class="editorial-split reveal">
+    <div class="plain">
+      <div class="eyebrow">IN PLAIN ENGLISH</div>
+      <p class="serif-copy">The important question is shifting from <em>“Who has the smartest model?”</em> to <em>“What can now be built because good AI is becoming widely available?”</em></p>
+      <p class="deep-only body-copy">That pushes value toward the layers around AI: workflow tools, distribution, specialized data, trust, infrastructure and products that make the technology useful in everyday work.</p>
+    </div>
+    <button class="founder-pull" data-drawer="founder1">
+      <span class="quote">“The model is becoming the platform. The opportunity is moving outward.”</span>
+      <span class="eyebrow light">FOUNDER LENS ↗</span>
+    </button>
   </section>
 
-  <section id="learn" class="hidden">
-    <h1>Your learning map</h1>
-    <p class="sub">The app remembers concepts you already understand, so tomorrow’s briefing can build on them instead of starting over.</p>
-    <article class="story"><div class="kicker">Concept</div><h2>Inference</h2><p class="dek">Using a trained AI model to actually answer a question or perform a task.</p><div class="founder"><small>You know this</small><p>Next time it appears, Signal can skip the definition and focus on what changed.</p></div></article>
+  <section class="thread reveal">
+    <div class="section-head">
+      <div><span class="eyebrow">CONNECT THE DOTS</span><span class="section-no">02</span></div>
+      <em>Three signals. A bigger picture.</em>
+    </div>
+    <div class="signal-line">
+      <button class="signal" data-signal="s1">
+        <div class="orb chip"></div>
+        <b>1. CHEAPER, FASTER AI</b>
+        <span>Models keep getting less expensive to use.</span>
+      </button>
+      <button class="signal" data-signal="s2">
+        <div class="orb robotics"></div>
+        <b>2. REAL-WORLD ADOPTION</b>
+        <span>Companies are moving from experiments to production.</span>
+      </button>
+      <button class="signal" data-signal="s3">
+        <div class="orb city"></div>
+        <b>3. MORE INFRASTRUCTURE</b>
+        <span>Chips, power and networks become strategic.</span>
+      </button>
+    </div>
+    <div id="signalDetail" class="signal-detail">Tap a signal to unpack why it matters.</div>
+    <p class="thread-conclusion">Together, these point to a fundamental shift:<br><strong>AI as infrastructure, not just a product.</strong></p>
   </section>
 
-  <section id="saved" class="hidden">
-    <h1>Saved insights</h1>
-    <p class="sub">A future home for stories, founder ideas, clips, and “come back to this” moments.</p>
+  <section class="story-strip reveal">
+    <div class="photo server"></div>
+    <div class="strip-copy">
+      <span class="eyebrow">02 · INFRASTRUCTURE</span>
+      <h2>AI has a new bottleneck: the computers need to talk to each other.</h2>
+      <p>Imagine hiring 10,000 brilliant people and giving them terrible Wi-Fi. More people do not solve the communication problem.</p>
+      <button class="text-link" data-drawer="founder2">Why founders should care →</button>
+    </div>
   </section>
+
+  <section class="story-contrast reveal">
+    <div class="number">03</div>
+    <div>
+      <span class="eyebrow">SCIENCE</span>
+      <h2>Research papers are beginning to behave like software.</h2>
+      <p>AI can help turn a dense scientific method into something you can actually interact with and use.</p>
+    </div>
+    <button class="diagram-trigger" data-toggle="diagram">SHOW ME VISUALLY ↓</button>
+    <div id="diagram" class="diagram">
+      <div>Paper</div><span>→</span><div>AI translates method</div><span>→</span><div>Interactive tool</div>
+    </div>
+  </section>
+
+  <section class="world reveal">
+    <div class="world-copy">
+      <span class="eyebrow light">04 · WORLD</span>
+      <h2>AI, chips, energy and geopolitics are becoming one story.</h2>
+      <p>Computing power is starting to matter to countries the way manufacturing capacity and energy supply already do.</p>
+    </div>
+  </section>
+
+  <section class="sources reveal">
+    <div class="section-head">
+      <div><span class="eyebrow">SOURCE LAYER</span><span class="section-no">05</span></div>
+      <em>Trust the trail, not the summary.</em>
+    </div>
+    <p class="source-intro">Each daily story will separate <strong>reported fact</strong>, <strong>expert interpretation</strong>, and <strong>our synthesis</strong>.</p>
+    <div class="source-row">
+      <button>Primary sources</button><button>Reuters / AP</button><button>AI Daily Brief</button><button>Latent Space</button><button>YC</button><button>Everyday AI</button>
+    </div>
+  </section>
+
+  <section class="closing reveal">
+    <div><span class="eyebrow light">THE DAILY TAKEAWAY</span><h2>A more informed tomorrow builds here.</h2></div>
+    <div class="closing-mark">SIGNAL<br><small>FOR THOSE WHO BUILD WHAT'S NEXT.</small></div>
+  </section>
+</section>
+
+<section id="learn" class="page hidden">
+  <span class="eyebrow">YOUR LEARNING MAP</span><h1 class="page-title">What you already understand.</h1>
+  <p class="body-copy">Signal remembers concepts you have learned so tomorrow's briefing can build on them instead of repeating itself.</p>
+  <div class="concept"><b>Inference</b><span>Using a trained AI model to perform a task.</span><i>Known</i></div>
+  <div class="concept"><b>Foundation model</b><span>A general AI model that other products build on top of.</span><i>Known</i></div>
+</section>
+
+<section id="saved" class="page hidden">
+  <span class="eyebrow">YOUR THREADS</span><h1 class="page-title">Ideas worth coming back to.</h1>
+  <p class="body-copy">Saved stories will become an evolving notebook of insights, clips, questions and founder opportunities.</p>
+</section>
 </main>
 
+<div id="drawer" class="drawer" aria-hidden="true">
+  <button id="drawerClose" class="drawer-close">×</button>
+  <span class="eyebrow light">FOUNDER LENS</span>
+  <h2 id="drawerTitle"></h2>
+  <p id="drawerBody"></p>
+  <div class="drawer-question"><span>QUESTION TO CARRY</span><b id="drawerQuestion"></b></div>
+</div>
+<div id="scrim" class="scrim"></div>
+
 <nav class="nav">
-  <button class="active" data-go="today">Today</button>
-  <button data-go="learn">Learning</button>
-  <button data-go="saved">Saved</button>
+  <button class="active" data-go="today"><span>⌂</span>Today</button>
+  <button data-go="learn"><span>⌘</span>Learning</button>
+  <button data-go="saved"><span>◇</span>Saved</button>
 </nav>
 <script src="app.js"></script>
 </body>
