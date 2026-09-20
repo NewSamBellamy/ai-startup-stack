@@ -3,152 +3,134 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f4efe5">
+<meta name="theme-color" content="#f5f0e8">
 <title>Signal — Daily Intelligence</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main id="app">
-<header class="mast">
-  <div>
-    <div class="wordmark">SIGNAL</div>
-    <div class="strap">CLEARER CONTEXT<br>FOR BRAVER BUILDERS</div>
-  </div>
-  <div class="mast-right">
-    <div class="date">TODAY · 7 MIN</div>
-    <div class="mode"><button id="simpleBtn" class="active">Simple</button><button id="deepBtn">Deep</button></div>
-  </div>
-</header>
-
-<section id="today">
-  <article class="lead reveal">
-    <div class="lead-image"></div>
-    <div class="shade"></div>
-    <div class="lead-index">TODAY'S SHIFT <span>01</span></div>
-    <div class="lead-copy">
-      <h1>AI is moving from product to infrastructure.</h1>
-      <p>What started as clever tools is becoming a core layer of the global economy.</p>
-      <button class="listen" data-toggle="leadExplainer">▶ 90-sec explanation</button>
-    </div>
-  </article>
-
-  <div id="leadExplainer" class="inline-explainer">
-    <div class="eyebrow">IN PLAIN ENGLISH</div>
-    <p>Think about electricity. At first it was a new invention. Then it disappeared into everything. AI may be starting the same transition: less of a single product, more of a capability built into thousands of products.</p>
-  </div>
-
-  <section class="editorial-split reveal">
-    <div class="plain">
-      <div class="eyebrow">IN PLAIN ENGLISH</div>
-      <p class="serif-copy">The important question is shifting from <em>“Who has the smartest model?”</em> to <em>“What can now be built because good AI is becoming widely available?”</em></p>
-      <p class="deep-only body-copy">That pushes value toward the layers around AI: workflow tools, distribution, specialized data, trust, infrastructure and products that make the technology useful in everyday work.</p>
-    </div>
-    <button class="founder-pull" data-drawer="founder1">
-      <span class="quote">“The model is becoming the platform. The opportunity is moving outward.”</span>
-      <span class="eyebrow light">FOUNDER LENS ↗</span>
-    </button>
-  </section>
-
-  <section class="thread reveal">
-    <div class="section-head">
-      <div><span class="eyebrow">CONNECT THE DOTS</span><span class="section-no">02</span></div>
-      <em>Three signals. A bigger picture.</em>
-    </div>
-    <div class="signal-line">
-      <button class="signal" data-signal="s1">
-        <div class="orb chip"></div>
-        <b>1. CHEAPER, FASTER AI</b>
-        <span>Models keep getting less expensive to use.</span>
-      </button>
-      <button class="signal" data-signal="s2">
-        <div class="orb robotics"></div>
-        <b>2. REAL-WORLD ADOPTION</b>
-        <span>Companies are moving from experiments to production.</span>
-      </button>
-      <button class="signal" data-signal="s3">
-        <div class="orb city"></div>
-        <b>3. MORE INFRASTRUCTURE</b>
-        <span>Chips, power and networks become strategic.</span>
-      </button>
-    </div>
-    <div id="signalDetail" class="signal-detail">Tap a signal to unpack why it matters.</div>
-    <p class="thread-conclusion">Together, these point to a fundamental shift:<br><strong>AI as infrastructure, not just a product.</strong></p>
-  </section>
-
-  <section class="story-strip reveal">
-    <div class="photo server"></div>
-    <div class="strip-copy">
-      <span class="eyebrow">02 · INFRASTRUCTURE</span>
-      <h2>AI has a new bottleneck: the computers need to talk to each other.</h2>
-      <p>Imagine hiring 10,000 brilliant people and giving them terrible Wi-Fi. More people do not solve the communication problem.</p>
-      <button class="text-link" data-drawer="founder2">Why founders should care →</button>
-    </div>
-  </section>
-
-  <section class="story-contrast reveal">
-    <div class="number">03</div>
+  <header class="mast">
     <div>
-      <span class="eyebrow">SCIENCE</span>
-      <h2>Research papers are beginning to behave like software.</h2>
-      <p>AI can help turn a dense scientific method into something you can actually interact with and use.</p>
+      <div class="wordmark">SIGNAL</div>
+      <div class="strap">CLEARER CONTEXT<br>FOR BRAVER BUILDERS</div>
     </div>
-    <button class="diagram-trigger" data-toggle="diagram">SHOW ME VISUALLY ↓</button>
-    <div id="diagram" class="diagram">
-      <div>Paper</div><span>→</span><div>AI translates method</div><span>→</span><div>Interactive tool</div>
+    <div class="mast-right">
+      <div class="date">Sat, Sep 19, 2026</div>
+      <div class="mode"><button id="simpleBtn">Simple</button><button id="deepBtn" class="active">Deep</button></div>
     </div>
+  </header>
+
+  <section id="today">
+    <article class="hero">
+      <div class="hero-photo"></div>
+      <div class="hero-shade"></div>
+      <div class="shift">
+        <span>TODAY'S SHIFT</span>
+        <div><b>01</b><i></i></div>
+      </div>
+      <div class="wall-copy">BUILD<br>THE NEXT<br>FRONTIER</div>
+      <div class="hero-copy">
+        <h1>AI is moving from product to infrastructure.</h1>
+        <p>What started as clever tools is becoming core computing — and a new layer of the global economy.</p>
+      </div>
+    </article>
+
+    <section class="explain">
+      <div class="plain">
+        <span class="eyebrow">IN PLAIN ENGLISH</span>
+        <p>AI is no longer just an app you use — it’s becoming the underlying infrastructure powering everything from chip design to healthcare to logistics. The next wave of value will go to those who build on top of it, not just those who wrap it in a UI.</p>
+        <p class="deep-only note">The shift is similar to cloud computing: once the underlying capability becomes broadly available, advantage moves toward distribution, workflow fit, proprietary data, trust, and execution.</p>
+      </div>
+      <button class="founder-card" id="founderOpen" aria-label="Open founder lens">
+        <div class="founder-mountains"></div>
+        <blockquote>“This isn’t a feature cycle. It’s a platform shift.”</blockquote>
+        <span class="eyebrow">FOUNDER LENS</span>
+        <span class="arrow">→</span>
+      </button>
+    </section>
+
+    <section class="dots">
+      <div class="dots-head">
+        <div><span class="eyebrow">CONNECT THE DOTS</span><span class="section-no">02</span><i></i></div>
+        <em>Three signals. A bigger picture.</em>
+      </div>
+
+      <div class="signal-track">
+        <button class="signal active" data-signal="0">
+          <span class="orb chip"></span>
+          <b>1. CHEAPER, FASTER AI</b>
+          <small>New models are 10× more efficient than 2 years ago.</small>
+        </button>
+        <button class="signal" data-signal="1">
+          <span class="orb robot"></span>
+          <b>2. REAL-WORLD ADOPTION</b>
+          <small>Enterprises are moving from pilots to production at scale.</small>
+        </button>
+        <button class="signal" data-signal="2">
+          <span class="orb city"></span>
+          <b>3. A MORE OPEN ECOSYSTEM</b>
+          <small>Infrastructure, models and tools are becoming more accessible globally.</small>
+        </button>
+      </div>
+
+      <div class="signal-insight" id="signalInsight">Lower costs expand what can be built — and move opportunity away from model access alone.</div>
+
+      <div class="dots-conclusion">
+        <i></i>
+        <p>Together, these point to a fundamental shift:<br><strong>AI as infrastructure, not just a product.</strong></p>
+        <i></i>
+      </div>
+    </section>
+
+    <section class="sources">
+      <div class="sources-head">
+        <div><span class="eyebrow">SOURCES</span><span class="section-no">03</span><i></i></div>
+        <button id="sourceNote">Read the full stories →</button>
+      </div>
+      <div class="source-row">
+        <button>Reuters</button>
+        <button>Nature</button>
+        <button>AI Daily Brief</button>
+        <button>Latent Space</button>
+        <button>YC</button>
+      </div>
+      <div class="source-note" id="sourcePanel">Production version: every claim opens to the exact source, with fact, expert interpretation, and Signal synthesis clearly separated.</div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-photo"></div>
+      <div class="closing-shade"></div>
+      <h2>A more informed<br>tomorrow builds here.</h2>
+      <div class="closing-mark">SIGNAL<small>FOR THOSE<br>WHO BUILD WHAT'S NEXT.</small></div>
+    </section>
   </section>
 
-  <section class="world reveal">
-    <div class="world-copy">
-      <span class="eyebrow light">04 · WORLD</span>
-      <h2>AI, chips, energy and geopolitics are becoming one story.</h2>
-      <p>Computing power is starting to matter to countries the way manufacturing capacity and energy supply already do.</p>
-    </div>
+  <section id="learn" class="page hidden">
+    <span class="eyebrow">YOUR LEARNING MAP</span>
+    <h1>What you already understand.</h1>
+    <p>Signal keeps track of concepts you’ve already learned so future briefings can build on them instead of repeating the basics.</p>
   </section>
 
-  <section class="sources reveal">
-    <div class="section-head">
-      <div><span class="eyebrow">SOURCE LAYER</span><span class="section-no">05</span></div>
-      <em>Trust the trail, not the summary.</em>
-    </div>
-    <p class="source-intro">Each daily story will separate <strong>reported fact</strong>, <strong>expert interpretation</strong>, and <strong>our synthesis</strong>.</p>
-    <div class="source-row">
-      <button>Primary sources</button><button>Reuters / AP</button><button>AI Daily Brief</button><button>Latent Space</button><button>YC</button><button>Everyday AI</button>
-    </div>
+  <section id="saved" class="page hidden">
+    <span class="eyebrow">SAVED</span>
+    <h1>Your ideas and threads.</h1>
+    <p>Stories, clips, founder insights and questions you want to revisit will live here.</p>
   </section>
-
-  <section class="closing reveal">
-    <div><span class="eyebrow light">THE DAILY TAKEAWAY</span><h2>A more informed tomorrow builds here.</h2></div>
-    <div class="closing-mark">SIGNAL<br><small>FOR THOSE WHO BUILD WHAT'S NEXT.</small></div>
-  </section>
-</section>
-
-<section id="learn" class="page hidden">
-  <span class="eyebrow">YOUR LEARNING MAP</span><h1 class="page-title">What you already understand.</h1>
-  <p class="body-copy">Signal remembers concepts you have learned so tomorrow's briefing can build on them instead of repeating itself.</p>
-  <div class="concept"><b>Inference</b><span>Using a trained AI model to perform a task.</span><i>Known</i></div>
-  <div class="concept"><b>Foundation model</b><span>A general AI model that other products build on top of.</span><i>Known</i></div>
-</section>
-
-<section id="saved" class="page hidden">
-  <span class="eyebrow">YOUR THREADS</span><h1 class="page-title">Ideas worth coming back to.</h1>
-  <p class="body-copy">Saved stories will become an evolving notebook of insights, clips, questions and founder opportunities.</p>
-</section>
 </main>
 
-<div id="drawer" class="drawer" aria-hidden="true">
+<div class="drawer" id="drawer">
   <button id="drawerClose" class="drawer-close">×</button>
   <span class="eyebrow light">FOUNDER LENS</span>
-  <h2 id="drawerTitle"></h2>
-  <p id="drawerBody"></p>
-  <div class="drawer-question"><span>QUESTION TO CARRY</span><b id="drawerQuestion"></b></div>
+  <h2>The opportunity is moving one layer outward.</h2>
+  <p>If capable AI becomes broadly available, the advantage shifts toward products that own a workflow, a customer relationship, trusted data, or distribution.</p>
+  <div class="carry"><span>QUESTION TO CARRY</span><b>What becomes newly possible when intelligence gets cheaper?</b></div>
 </div>
-<div id="scrim" class="scrim"></div>
+<div class="scrim" id="scrim"></div>
 
 <nav class="nav">
-  <button class="active" data-go="today"><span>⌂</span>Today</button>
-  <button data-go="learn"><span>⌘</span>Learning</button>
-  <button data-go="saved"><span>◇</span>Saved</button>
+  <button class="active" data-go="today"><span class="nav-icon">⌂</span><b>Today</b></button>
+  <button data-go="learn"><span class="nav-icon">▱</span><b>Learning</b></button>
+  <button data-go="saved"><span class="nav-icon">⌑</span><b>Saved</b></button>
 </nav>
 <script src="app.js"></script>
 </body>
