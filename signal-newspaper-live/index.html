@@ -1,150 +1,247 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#ece7db" />
-  <title>Signal — Newspaper Edition</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#d8d1c2">
+<title>Signal — Evening Edition</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app" class="phone-shell">
-    <header class="topbar">
-      <button class="icon-btn" aria-label="Menu">☰</button>
-      <div class="brand-wrap">
-        <div class="brand">SIGNAL</div>
-        <div class="brand-sub">CLEARER CONTEXT FOR BRAVER BUILDERS</div>
+<div class="paper">
+  <header class="sticky-rail">
+    <button class="seal" id="menuBtn" aria-label="Edition menu">S</button>
+    <div class="rail-center">
+      <span>THE SIGNAL</span>
+      <small>EVENING EDITION · SEPTEMBER 19, 2026</small>
+    </div>
+    <button class="save-btn" id="saveBtn">☆</button>
+  </header>
+
+  <aside class="edition-menu" id="editionMenu">
+    <button class="close-menu" id="closeMenu">×</button>
+    <div class="menu-ornament">✦</div>
+    <h2>Tonight's Edition</h2>
+    <a href="#front">Front Page</a>
+    <a href="#shift">The Shift</a>
+    <a href="#dots">Connect the Dots</a>
+    <a href="#founder">Founder Lens</a>
+    <a href="#voices">Expert Voices</a>
+    <a href="#world">World Desk</a>
+    <a href="#sources">Source Ledger</a>
+  </aside>
+  <div class="menu-scrim" id="menuScrim"></div>
+
+  <main>
+    <section class="front-page" id="front">
+      <div class="edition-line"><span>VOL. I · NO. 19</span><span>PRICE: 7 MINUTES</span><span>23 SOURCES CHECKED</span></div>
+      <div class="masthead">
+        <span class="star">✦</span>
+        <div>
+          <h1>THE SIGNAL</h1>
+          <p>INTELLIGENCE FOR THOSE WHO BUILD WHAT COMES NEXT</p>
+        </div>
+        <span class="star">✦</span>
       </div>
-      <button class="icon-btn" aria-label="Search">⌕</button>
-    </header>
+      <div class="rule ornate"></div>
 
-    <main class="screen" id="screen-root"></main>
+      <article class="lead-story">
+        <div class="lead-kicker">TONIGHT'S GREAT SHIFT</div>
+        <h2>AI is becoming infrastructure.</h2>
+        <p class="lead-dek">Not another clever application. Not another model launch. A deeper transition is underway — intelligence itself is becoming a basic layer of modern industry.</p>
+        <figure class="moving-photo city-photo">
+          <svg viewBox="0 0 800 470" role="img" aria-label="Art Deco city and infrastructure illustration">
+            <rect width="800" height="470" fill="#c9c2b4"/>
+            <g stroke="#171717" fill="none" stroke-width="4">
+              <path d="M20 405H780"/>
+              <path d="M70 405V210h80v195M105 210v-55h12v55"/>
+              <path d="M180 405V260h100v145M210 260v-80h35v80"/>
+              <path d="M315 405V120h90v285M342 120V65h36v55"/>
+              <path d="M450 405V245h105v160M480 245v-60h45v60"/>
+              <path d="M600 405V180h110v225M640 180v-70h35v70"/>
+              <path d="M0 330 C160 260 280 300 400 250 S650 260 800 205"/>
+              <path d="M0 350 C160 280 280 320 400 270 S650 280 800 225"/>
+            </g>
+            <g fill="#171717">
+              <circle cx="112" cy="128" r="20"/>
+              <circle cx="360" cy="42" r="16"/>
+              <circle cx="655" cy="86" r="20"/>
+            </g>
+            <g class="airship">
+              <ellipse cx="555" cy="86" rx="105" ry="35" fill="#8e887e" stroke="#171717" stroke-width="4"/>
+              <path d="M450 86h210M520 120l30 35h65l18-35" fill="none" stroke="#171717" stroke-width="4"/>
+              <circle cx="580" cy="145" r="8" fill="#171717"/>
+            </g>
+          </svg>
+          <figcaption>A city wired for intelligence. Illustration for Signal.</figcaption>
+        </figure>
+        <div class="front-columns">
+          <p><span class="dropcap">T</span>he interesting story is no longer just who can build the smartest model. It is what happens when capable intelligence becomes cheap enough, dependable enough, and ordinary enough to disappear into everything.</p>
+          <p>That is where new markets form: around distribution, trust, specialized workflows, proprietary data, chips, networks, power, and products nobody could afford to build a year ago.</p>
+        </div>
+        <a href="#shift" class="continue-link">CONTINUE BELOW ↓</a>
+      </article>
+    </section>
 
-    <nav class="bottom-nav">
-      <button class="nav-item active" data-route="today"><span>◼</span><b>Today</b></button>
-      <button class="nav-item" data-route="explore"><span>⌕</span><b>Explore</b></button>
-      <button class="nav-item" data-route="learn"><span>▣</span><b>Learn</b></button>
-      <button class="nav-item" data-route="saved"><span>🔖</span><b>Saved</b></button>
-      <button class="nav-item" data-route="profile"><span>◌</span><b>Profile</b></button>
-    </nav>
-  </div>
+    <section class="story-section" id="shift">
+      <header class="section-banner">
+        <span>01</span><div><small>THE SHIFT</small><h3>So what actually changed?</h3></div>
+      </header>
+      <div class="section-grid">
+        <div class="article-copy">
+          <p class="big-copy">The cost of useful intelligence keeps falling.</p>
+          <p>Imagine electricity becoming dramatically cheaper every year while the machines that use it become better at their jobs. Suddenly entirely new kinds of businesses start to make sense.</p>
+          <div class="term-note" data-term="inference"><b>INFERENCE ↗</b><span>Tap for plain English.</span></div>
+          <div class="term-definition" id="termDefinition">Inference is simply the moment an already-trained AI actually does work for you.</div>
+        </div>
+        <figure class="engraving">
+          <svg viewBox="0 0 420 420">
+            <rect width="420" height="420" fill="#d0c9bb"/>
+            <g stroke="#151515" fill="none" stroke-width="3">
+              <circle cx="210" cy="210" r="130"/>
+              <circle cx="210" cy="210" r="95"/>
+              <circle cx="210" cy="210" r="50"/>
+              <path d="M210 45v330M45 210h330M95 95l230 230M325 95L95 325"/>
+              <path d="M70 365l280-310M55 335L330 55M82 390l285-300"/>
+            </g>
+            <text x="210" y="224" text-anchor="middle" font-size="44" font-family="Georgia" fill="#151515">AI</text>
+          </svg>
+          <figcaption>The new engine room.</figcaption>
+        </figure>
+      </div>
+      <div class="quote-rule">
+        <span>“The model is becoming the platform. The opportunity is moving outward.”</span>
+      </div>
+    </section>
 
-  <template id="today-template">
-    <section class="page page-today">
-      <div class="meta-strip">SAT, SEP 19, 2026 <span>•</span> 5 SIGNALS <span>•</span> 7 MIN <span>•</span> 23 SOURCES</div>
-      <article class="hero-card illustrated-frame">
-        <div class="hero-art"></div>
-        <div class="hero-copy">
-          <div class="kicker">TODAY'S SHIFT</div>
-          <h1>AI is moving from product to infrastructure.</h1>
-          <p>Three developments this week quietly made that shift much more real.</p>
-          <div class="hero-actions">
-            <button class="primary-btn" data-route="signal">Read the brief →</button>
-            <button class="link-btn" data-route="connect">3 key signals ↓</button>
+    <section class="cartoon-strip" id="dots">
+      <div class="strip-heading"><span>02 · CONNECT THE DOTS</span><em>Three scenes. One transition.</em></div>
+      <div class="cartoon-panels">
+        <button class="cartoon-panel active" data-panel="0">
+          <div class="panel-number">I</div>
+          <div class="panel-art">
+            <svg viewBox="0 0 280 210"><rect width="280" height="210" fill="#d7d0c2"/><g stroke="#111" fill="none" stroke-width="3"><rect x="52" y="55" width="176" height="100"/><path d="M80 80h120M80 105h120M80 130h120"/><circle cx="140" cy="175" r="13"/></g><text x="140" y="112" text-anchor="middle" font-size="42" font-family="Georgia">¢</text></svg>
+          </div>
+          <h4>Cheaper AI</h4>
+          <p>More use cases become economically possible.</p>
+        </button>
+        <button class="cartoon-panel" data-panel="1">
+          <div class="panel-number">II</div>
+          <div class="panel-art">
+            <svg viewBox="0 0 280 210"><rect width="280" height="210" fill="#d7d0c2"/><g stroke="#111" fill="none" stroke-width="3"><path d="M45 160h190M70 160V70h140v90"/><path d="M95 100h35v35H95zM150 100h35v35h-35z"/><circle cx="95" cy="50" r="18"/><circle cx="185" cy="50" r="18"/></g></svg>
+          </div>
+          <h4>Real adoption</h4>
+          <p>Companies move from experiments into daily work.</p>
+        </button>
+        <button class="cartoon-panel" data-panel="2">
+          <div class="panel-number">III</div>
+          <div class="panel-art">
+            <svg viewBox="0 0 280 210"><rect width="280" height="210" fill="#d7d0c2"/><g stroke="#111" fill="none" stroke-width="3"><path d="M35 170h210"/><rect x="55" y="90" width="45" height="80"/><rect x="118" y="50" width="48" height="120"/><rect x="183" y="75" width="42" height="95"/><path d="M141 50V18M128 28h26"/></g></svg>
+          </div>
+          <h4>Infrastructure rush</h4>
+          <p>Chips, power, networks, and data centers become strategic.</p>
+        </button>
+      </div>
+      <div class="panel-reveal" id="panelReveal">Lower costs expand the number of products that can exist.</div>
+      <div class="connection-line"><span></span><b>THE REVEAL</b><span></span></div>
+      <p class="connection-copy">These are not three different stories. They are the same flywheel: <strong>lower cost → more adoption → more infrastructure → even lower cost.</strong></p>
+    </section>
+
+    <section class="founder-desk" id="founder">
+      <div class="desk-label">03 · THE FOUNDER'S DESK</div>
+      <div class="founder-layout">
+        <div class="portrait-frame">
+          <svg viewBox="0 0 340 420">
+            <rect width="340" height="420" fill="#cfc8ba"/>
+            <g stroke="#111" fill="none" stroke-width="4">
+              <circle cx="170" cy="120" r="54"/>
+              <path d="M115 120q55 45 110 0"/>
+              <path d="M125 177q45 35 90 0"/>
+              <path d="M85 385q20-145 85-145t85 145"/>
+              <path d="M88 280h164M105 320h130"/>
+              <path d="M30 395h280"/>
+            </g>
+          </svg>
+          <span class="portrait-caption">A builder looks beyond the obvious headline.</span>
+        </div>
+        <div class="founder-copy">
+          <h3>There is a less obvious opportunity hiding underneath this story.</h3>
+          <p>Most people stare at the model. Builders should ask what the falling cost of intelligence unlocks one layer above it.</p>
+          <button class="reveal-button" id="founderReveal">REVEAL THE MARGIN NOTES ↓</button>
+          <div class="margin-notes" id="marginNotes">
+            <article><span>1</span><div><b>What changed economically</b><p>Serving AI products gets cheaper, so smaller niches can become real markets.</p></div></article>
+            <article><span>2</span><div><b>Where value may move</b><p>Distribution, trusted data, workflow ownership, and infrastructure become more important.</p></div></article>
+            <article><span>3</span><div><b>The question worth carrying</b><p>What could exist if the cost of useful intelligence fell another 10×?</p></div></article>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="voices" id="voices">
+      <header class="section-banner">
+        <span>04</span><div><small>VOICES FROM THE ROOM</small><h3>What experts are noticing</h3></div>
+      </header>
+      <article class="radio-card">
+        <div class="radio-illustration">
+          <svg viewBox="0 0 380 260"><rect width="380" height="260" fill="#cfc8ba"/><g stroke="#111" fill="none" stroke-width="4"><rect x="70" y="70" width="240" height="140" rx="12"/><circle cx="135" cy="135" r="35"/><circle cx="250" cy="125" r="18"/><circle cx="250" cy="170" r="18"/><path d="M110 70l-30-45M270 70l40-45"/></g></svg>
+        </div>
+        <div>
+          <div class="voice-meta">EXPERT TAKE · 38 SEC · LATENT SPACE</div>
+          <blockquote>“The overlooked story is not the chip itself. It is what becomes newly affordable because of it.”</blockquote>
+          <button class="audio-button" id="audioButton">▶ PLAY THE CLIP</button>
+          <p class="why-included"><b>Why Signal included this:</b> the expert adds a useful interpretation that is not obvious in the announcement itself.</p>
+        </div>
       </article>
-      <section class="section-block">
-        <div class="section-kicker">WHY IT MATTERS</div>
-        <p class="body-copy">AI isn’t just a new app anymore. It’s becoming essential infrastructure — like cloud, chips, and power. That changes who wins, what gets built, and where the opportunities are.</p>
-      </section>
-      <section class="big-picture illustrated-frame small-frame">
-        <div class="section-kicker">THE BIG PICTURE</div>
-        <div class="quote-card">“Cheaper AI isn’t the end goal — it’s the beginning.”<small>— SIGNAL</small></div>
-      </section>
     </section>
-  </template>
 
-  <template id="signal-template">
-    <section class="page">
-      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>01 / 05 <span>KEY SIGNAL</span></div><button class="share-btn">⋯</button></div>
-      <h1 class="story-title">A new AI chip just changed the economics.</h1>
-      <p class="story-sub">Nvidia’s latest chip delivers 3× more performance per dollar than last year’s flagship.</p>
-      <div class="illustrated-frame chip-frame"></div>
-      <div class="fact-pill">✓ Confirmed by 4 sources</div>
-      <div class="toggle-wrap"><button class="toggle-tab active" id="simpleMode">Simple</button><button class="toggle-tab" id="deepMode">Deep</button></div>
-      <section class="section-block">
-        <div class="section-kicker">SO WHAT DOES THAT ACTUALLY MEAN?</div>
-        <p class="body-copy">It’s now significantly cheaper for companies to run powerful AI models. That lowers the barrier to adopt AI across more industries — not just tech.</p>
-        <div class="definition-card"><strong>Inference ↗</strong><span>When an already-trained AI actually performs a task.</span></div>
-      </section>
-      <section class="section-block deep-only">
-        <div class="section-kicker">WHY IT MATTERS</div>
-        <p class="body-copy">Lower costs change who can build, what gets built, and how fast AI moves from experiments to real-world use.</p>
-      </section>
-      <button class="full-width-btn" data-route="founder">Take me deeper →</button>
-    </section>
-  </template>
-
-  <template id="connect-template">
-    <section class="page">
-      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>02 / 05 <span>CONNECT THE DOTS</span></div><button class="share-btn">⋯</button></div>
-      <h1 class="story-title">These aren’t three separate stories.</h1>
-      <p class="story-sub">They’re evidence of the same transition.</p>
-      <div class="dot-row">
-        <div class="dot-node"><div class="dot-art chip-dot"></div><b>Cheaper AI</b></div>
-        <div class="dot-node"><div class="dot-art office-dot"></div><b>Enterprise adoption</b></div>
-        <div class="dot-node"><div class="dot-art infra-dot"></div><b>Infrastructure buildout</b></div>
-      </div>
-      <div class="section-note">Tap each signal to see how they connect.</div>
-      <div class="chain-list">
-        <button class="chain-item active" data-insight="Cheaper AI means powerful models become affordable to more companies."><span>1</span><div><b>Cheaper AI</b><small>Compute costs drop, making powerful models accessible to more companies.</small></div></button>
-        <button class="chain-item" data-insight="As costs fall, companies integrate AI into core products and workflows."><span>2</span><div><b>Enterprise adoption</b><small>More companies integrate AI into core products and workflows.</small></div></button>
-        <button class="chain-item" data-insight="Growing demand drives more investment in chips, data centers, and energy."><span>3</span><div><b>Infrastructure buildout</b><small>Growing demand drives massive investment in chips, data centers, and energy.</small></div></button>
-      </div>
-      <div class="insight-panel" id="insightPanel">Cheaper AI means powerful models become affordable to more companies.</div>
-      <div class="connection-card illustrated-frame dark-panel">
-        <p><strong>The connection:</strong><br/>Lower costs drive adoption, which drives infrastructure investment, which makes AI even cheaper and more capable.</p>
+    <section class="world-desk" id="world">
+      <div class="desk-label">05 · WORLD DESK</div>
+      <h3>AI, chips, energy, and national strategy are becoming one story.</h3>
+      <figure class="moving-photo globe-photo">
+        <svg viewBox="0 0 800 420">
+          <rect width="800" height="420" fill="#c9c2b4"/>
+          <g stroke="#151515" fill="none" stroke-width="3">
+            <circle cx="400" cy="210" r="145"/>
+            <ellipse cx="400" cy="210" rx="145" ry="55"/>
+            <ellipse cx="400" cy="210" rx="70" ry="145"/>
+            <path d="M255 210h290M400 65v290"/>
+            <path d="M85 330l110-75 75 55 120-100 130 85 110-120 90 75"/>
+          </g>
+          <g fill="#151515">
+            <circle cx="195" cy="255" r="8"/><circle cx="390" cy="210" r="8"/><circle cx="520" cy="295" r="8"/><circle cx="630" cy="175" r="8"/>
+          </g>
+        </svg>
+      </figure>
+      <div class="front-columns">
+        <p>When computing power becomes strategically important, the conversation stops being only about software companies. Supply chains, energy, manufacturing, regulation, and geopolitics all enter the frame.</p>
+        <p>The founder takeaway is not fear. It is dependency awareness: know which parts of your product rely on infrastructure, policy, or platforms you do not control.</p>
       </div>
     </section>
-  </template>
 
-  <template id="founder-template">
-    <section class="page">
-      <div class="story-header"><button class="back-btn" data-route="signal">←</button><div>03 / 05 <span>FOUNDER LENS</span></div><button class="share-btn">⋯</button></div>
-      <h1 class="story-title founder-title">There’s a less obvious opportunity hiding underneath this story.</h1>
-      <p class="body-copy">Most people are focusing on the chip. The bigger opportunity is in what it unlocks.</p>
-      <button class="primary-btn founder-reveal" id="revealFounder">Reveal insights ↓</button>
-      <div id="founderInsights" class="founder-grid hidden-panel">
-        <div class="number-card"><span>1</span><div><b>What changed economically</b><small>Inference costs are dropping faster than many expected, compressing the cost to serve new use cases.</small></div></div>
-        <div class="number-card"><span>2</span><div><b>Where opportunity may move</b><small>New companies can build specialized tools, vertical applications, and infrastructure services on top of cheaper AI.</small></div></div>
-        <div class="number-card"><span>3</span><div><b>One question worth carrying</b><small>If AI becomes dramatically cheaper and more capable, what industries are most unprepared for the shift?</small></div></div>
-      </div>
-      <section class="section-block expert-block">
-        <div class="section-kicker">EXPERT TAKE • 38 SEC</div>
-        <div class="audio-row"><button class="play-btn">▶</button><div class="waveform">▁▃▅▂▇▄▆▂▅▇▃▆▂▅▃</div></div>
-        <blockquote>“The thing people are overlooking is not just the chip — it’s what this does to the entire supply chain…”</blockquote>
-        <small>— Latent Space Podcast</small>
-      </section>
-    </section>
-  </template>
-
-  <template id="sources-template">
-    <section class="page">
-      <div class="story-header"><button class="back-btn" data-route="today">←</button><div>04 / 05 <span>SOURCES & PERSPECTIVES</span></div><button class="share-btn">⋯</button></div>
-      <h1 class="story-title">Where this story comes from.</h1>
-      <p class="story-sub">We pull from trusted sources and show you why each one matters.</p>
-      <div class="source-list">
-        <button class="source-card"><div class="source-thumb news-thumb"></div><div><b>REUTERS</b><small>Original reporting · 4 min read</small><em>“Nvidia unveils next-gen chip with 3× performance per dollar.”</em></div><span>→</span></button>
-        <button class="source-card"><div class="source-thumb logo-thumb"></div><div><b>NVIDIA</b><small>Company announcement · 6 min read</small><em>“Introducing our next-generation AI chip platform.”</em></div><span>→</span></button>
-        <button class="source-card"><div class="source-thumb face-thumb"></div><div><b>LATENT SPACE</b><small>Technical interpretation · 12 min segment</small><em>“What this chip actually means for the next wave of AI.”</em></div><span>→</span></button>
-        <button class="source-card"><div class="source-thumb mic-thumb"></div><div><b>AI DAILY BRIEF</b><small>Industry reaction · 6 min listen</small><em>“How this changes the competitive landscape.”</em></div><span>→</span></button>
-      </div>
-      <div class="remember-panel dark-panel illustrated-frame">
-        <div class="section-kicker light">IF YOU REMEMBER ONE THING TODAY</div>
-        <p>AI becoming cheaper isn’t the interesting part. What becomes economically possible because it’s cheaper is.</p>
-        <small>Tomorrow, watch: <b>Enterprise AI deployment costs.</b></small>
+    <section class="source-ledger" id="sources">
+      <div class="ledger-title"><span>06</span><div><small>THE SOURCE LEDGER</small><h3>Trust the trail, not the summary.</h3></div></div>
+      <div class="ledger-table">
+        <button><span class="source-kind">REPORTING</span><b>Reuters</b><small>Original reporting · 4 min read</small><i>→</i></button>
+        <button><span class="source-kind">PRIMARY</span><b>Company announcement</b><small>Original source · 6 min read</small><i>→</i></button>
+        <button><span class="source-kind">EXPERT</span><b>Latent Space</b><small>Technical interpretation · 12 min segment</small><i>→</i></button>
+        <button><span class="source-kind">EXPERT</span><b>AI Daily Brief</b><small>Industry interpretation · 6 min listen</small><i>→</i></button>
+        <button><span class="source-kind">SYNTHESIS</span><b>Signal</b><small>Connected analysis across the evidence</small><i>→</i></button>
       </div>
     </section>
-  </template>
 
-  <template id="placeholder-template">
-    <section class="page placeholder-page">
-      <h1 class="story-title">Coming next</h1>
-      <p class="story-sub">This section is reserved for the next step of the product build.</p>
+    <section class="last-word">
+      <div class="ornament">✦ · ✦ · ✦</div>
+      <span class="last-label">IF YOU REMEMBER ONE THING TONIGHT</span>
+      <p>AI becoming cheaper is not the interesting part.</p>
+      <h3>What becomes economically possible because it is cheaper is.</h3>
+      <div class="tomorrow-box"><small>TOMORROW, WATCH</small><b>Enterprise AI deployment costs.</b></div>
+      <div class="end-mark">
+        <span>THE SIGNAL</span>
+        <small>END OF EDITION · RETURN TOMORROW</small>
+      </div>
     </section>
-  </template>
-
-  <script src="app.js"></script>
+  </main>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
