@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=20" },
   "scripts": {
     "dev": "tsx src/server.ts",
     "start": "tsx src/server.ts",
@@ -10,17 +11,18 @@
     "selftest": "tsx src/selftest.ts"
   },
   "dependencies": {
-    "@modelcontextprotocol/express": "latest",
-    "@modelcontextprotocol/node": "latest",
-    "@modelcontextprotocol/server": "latest",
-    "express": "latest",
-    "googleapis": "latest",
-    "zod": "latest"
+    "@modelcontextprotocol/express": "2.0.0",
+    "@modelcontextprotocol/node": "2.0.0",
+    "@modelcontextprotocol/server": "2.0.0",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.3.0",
+    "googleapis": "^160.0.0",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
-    "@types/express": "latest",
-    "@types/node": "latest",
-    "tsx": "latest",
-    "typescript": "latest"
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }

@@ -1,0 +1,33 @@
+name: OmniVeo Bridge 2.0 CI
+
+on:
+  push:
+    branches: [omniveo-bridge-v2]
+    paths:
+      - "omniveo-bridge-v2/**"
+      - ".github/workflows/omniveo-bridge-v2.yml"
+  pull_request:
+    paths:
+      - "omniveo-bridge-v2/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: omniveo-bridge-v2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: omniveo-bridge-v2/package-lock.json
+      - run: npm install
+      - run: npm run typecheck
+        env:
+          GOOGLE_CLIENT_ID: ci
+          GOOGLE_CLIENT_SECRET: ci
+          BRIDGE_ENCRYPTION_KEY: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+          BRIDGE_OWNER_TOKEN: ci-owner
+      - run: npm run selftest
