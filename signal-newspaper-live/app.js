@@ -1,9 +1,39 @@
-const routes={today:'today-template',signal:'signal-template',connect:'connect-template',founder:'founder-template',sources:'sources-template',explore:'placeholder-template',learn:'placeholder-template',saved:'placeholder-template',profile:'placeholder-template'};
-const root=document.getElementById('screen-root');let currentRoute='today';
-function render(route){currentRoute=route;const template=document.getElementById(routes[route]||'placeholder-template');root.innerHTML='';root.appendChild(template.content.cloneNode(true));wireScreen();updateNav();window.scrollTo({top:0,behavior:'instant'});}
-function updateNav(){document.querySelectorAll('.nav-item').forEach(btn=>{btn.classList.toggle('active',btn.dataset.route===(['today','explore','learn','saved','profile'].includes(currentRoute)?currentRoute:'today'));});}
-function wireScreen(){document.querySelectorAll('[data-route]').forEach(btn=>{btn.addEventListener('click',()=>render(btn.dataset.route));});
-const simple=document.getElementById('simpleMode');const deep=document.getElementById('deepMode');if(simple&&deep){const deepOnly=root.querySelectorAll('.deep-only');simple.addEventListener('click',()=>{simple.classList.add('active');deep.classList.remove('active');deepOnly.forEach(el=>el.style.display='none');});deep.addEventListener('click',()=>{deep.classList.add('active');simple.classList.remove('active');deepOnly.forEach(el=>el.style.display='block');});}
-const chainItems=root.querySelectorAll('.chain-item');if(chainItems.length){const panel=document.getElementById('insightPanel');chainItems.forEach(item=>{item.addEventListener('click',()=>{chainItems.forEach(i=>i.classList.remove('active'));item.classList.add('active');panel.textContent=item.dataset.insight;});});}
-const revealFounder=document.getElementById('revealFounder');if(revealFounder){revealFounder.addEventListener('click',()=>{document.getElementById('founderInsights').style.display='grid';revealFounder.textContent='Insights revealed ✓';revealFounder.disabled=true;});}}
-document.querySelectorAll('.nav-item').forEach(btn=>{btn.addEventListener('click',()=>render(btn.dataset.route));});render('today');
+const menu=document.getElementById('editionMenu'),scrim=document.getElementById('menuScrim');
+function openMenu(){menu.classList.add('open');scrim.classList.add('show')}
+function closeMenu(){menu.classList.remove('open');scrim.classList.remove('show')}
+document.getElementById('menuBtn').onclick=openMenu;
+document.getElementById('closeMenu').onclick=closeMenu;
+scrim.onclick=closeMenu;
+document.querySelectorAll('.edition-menu a').forEach(a=>a.onclick=closeMenu);
+
+const save=document.getElementById('saveBtn');
+save.onclick=()=>{save.textContent=save.textContent==='★'?'☆':'★'};
+
+const term=document.querySelector('[data-term]');
+term.onclick=()=>document.getElementById('termDefinition').classList.toggle('show');
+
+const panelCopy=[
+  'Lower costs expand the number of products that can exist.',
+  'Repeat use inside real businesses matters more than another impressive demo.',
+  'Demand for AI creates second-order markets around chips, networking, power, and data centers.'
+];
+document.querySelectorAll('.cartoon-panel').forEach((panel,i)=>panel.onclick=()=>{
+  document.querySelectorAll('.cartoon-panel').forEach(p=>p.classList.remove('active'));
+  panel.classList.add('active');
+  document.getElementById('panelReveal').textContent=panelCopy[i];
+});
+
+const founderButton=document.getElementById('founderReveal');
+founderButton.onclick=()=>{
+  const notes=document.getElementById('marginNotes');
+  notes.classList.toggle('show');
+  founderButton.textContent=notes.classList.contains('show')?'HIDE THE MARGIN NOTES ↑':'REVEAL THE MARGIN NOTES ↓';
+};
+
+const audio=document.getElementById('audioButton');
+audio.onclick=()=>{audio.classList.toggle('playing');audio.textContent=audio.classList.contains('playing')?'▮▮ PLAYING THE CLIP…':'▶ PLAY THE CLIP'};
+
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{
+  if(e.isIntersecting)e.target.classList.add('entered');
+}),{threshold:.15});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
